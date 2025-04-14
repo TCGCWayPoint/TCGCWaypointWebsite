@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tangub City Global College Campus Map</title>
+    <link rel="stylesheet" href="tcgcWayPoint.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="photo/tcgcLogo.png" alt="Tangub City Global College Logo" loading="lazy">
+        </div>
+        <div class="tcgc">
+            <h1>Tangub City Global College</h1>
+            <p>Juan Luna St., Maloro, Tangub City, Misamis Occidental, Philippines</p><br><br>
+        </div>
+        <div class="system">
+            <h2>QR Code-Based Navigation Campus Map</h2>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="tcgcWayPoint.html">Home</a></li>
+            <li><a href="tcgcWayPointMap.html" class="active">Map</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search TCGC Map">
+            <button type="button" id="searchButton" aria-label="Search">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+            </button>
+        </div>
+
+        <section class="campusmap">
+            <p>Campus Map</p>
+            <div class="reserved-space">
+                <!-- Map content can be added here later -->
+            </div>
+        </section>
+
+        <section class="feedback">
+            <div class="feedback-form">
+                <h2>Your Feedback Matters!</h2>
+                <form>
+                    <div class="input-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your Name" required>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+                    </div>
+                    <label for="feedback">Feedback:</label>
+                    <textarea id="feedback" name="feedback" placeholder="Your feedback" rows="5" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="logo-container">
+                <img src="photo/tcgcLogo.png" alt="TCGC Logo" loading="lazy">
+                <img src="photo/luxmundiLogo.png" alt="LuxMundi Logo" loading="lazy">
+            </div>
+            <div class="text-container">
+                <p>Tangub City Global College</p>
+                <p style="font-weight: 100;">Copyright 2025</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="tcgCWayPoint.js"></script> <!-- Changed from script.js -->
+</body>
+</html>

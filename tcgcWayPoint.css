@@ -1,0 +1,364 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif; /* Default font for body text */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    min-height: 100vh; /* Ensures full viewport height */
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Vertical arrangement */
+    line-height: 1.6; /* Improves readability */
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Roboto', sans-serif; /* Bold headings with Roboto */
+}
+
+/* Header */
+header {
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Vertically centers items */
+    background-color: #15331d; /* Dark green background */
+    color: white; /* White text */
+    padding: 20px; /* Internal padding */
+    position: relative; /* For absolute positioning of .system */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.logo img {
+    width: 100px; /* Logo width */
+    height: auto; /* Maintains aspect ratio */
+    margin-right: 20px; /* Space to the right */
+}
+
+.tcgc {
+    text-align: left; /* Left-aligned text */
+    flex-grow: 1; /* Expands to fill space */
+}
+
+.tcgc h1 {
+    font-size: 2em; /* 32px heading */
+    margin-bottom: 5px; /* Space below */
+}
+
+.tcgc p {
+    font-size: 1em; /* 16px text */
+    margin: 0; /* Removes default margins */
+}
+
+.system {
+    position: absolute; /* Positions relative to header */
+    bottom: 0; /* Bottom of header */
+    left: 50%; /* Horizontal center */
+    transform: translateX(-50%); /* Centers perfectly */
+    text-align: center; /* Centers text */
+}
+
+.system h2 {
+    font-size: 1.5em; /* 24px heading */
+    margin: 5px 0; /* Vertical spacing */
+}
+
+/* Navigation */
+nav {
+    position: sticky; /* Sticks to top when scrolling */
+    top: 0; /* Aligns to top */
+    z-index: 1000; /* Stays above content */
+}
+
+nav ul {
+    list-style-type: none; /* No bullets */
+    padding: 15px 0; /* Vertical padding */
+    background-color: #f5f5d5; /* Softer yellow background */
+    display: flex; /* Flexbox layout */
+    justify-content: center; /* Centers items */
+    align-items: center; /* Vertically centers */
+    margin: 0; /* Removes default margin */
+}
+
+nav ul li {
+    margin-right: 20px; /* Space between items */
+}
+
+nav ul li a {
+    text-decoration: none; /* No underlines */
+    color: black; /* Black text */
+    padding: 10px; /* Clickable area */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    background-color: #004d00; /* Darker green on hover/focus */
+    color: white; /* White text */
+}
+
+nav ul li a.active {
+    background-color: #006400; /* Dark green for active link */
+    color: white; /* White text */
+}
+
+/* Main Content (Home Page) */
+main {
+    flex-grow: 1; /* Expands to fill space */
+    padding: 20px; /* Internal padding */
+    text-align: center; /* Centers text */
+}
+
+.welcome .tagline {
+    font-size: 1.2em; /* Slightly larger tagline */
+    font-style: italic; /* Italic style */
+    margin: 10px 0; /* Vertical spacing */
+}
+
+.welcome img {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintains aspect ratio */
+    margin: 10px 0; /* Vertical spacing */
+}
+
+.about, .features {
+    text-align: left; /* Left-aligned text */
+    max-width: 800px; /* Limits width for readability */
+    margin: 0 auto; /* Centers section */
+}
+
+.leftAlign {
+    margin: 20px 0; /* Vertical spacing */
+    color: white; /* White text */
+    background-color: #15331d; /* Dark green background */
+    padding: 10px 20px; /* Internal padding */
+    display: inline-block; /* Width matches content */
+    margin-left: 10px; /* Left spacing */
+}
+
+.about p {
+    margin-left: 20px; /* Indents paragraph */
+}
+
+.features ul {
+    list-style-type: none; /* No bullets */
+    padding-left: 20px; /* Left padding */
+}
+
+.features li {
+    margin-bottom: 10px; /* Space between items */
+}
+
+.inline-feature {
+    font-weight: bold; /* Bold text */
+    font-size: 1.1em; /* Slightly larger */
+}
+
+/* Buttons */
+button {
+    background-color: #15331d; /* Dark green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 15px 30px; /* Larger clickable area */
+    font-size: 18px; /* Larger text */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Pointer on hover */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+button:hover,
+button:focus {
+    background-color: #004d00; /* Darker green on hover/focus */
+}
+
+#startExploring a {
+    text-decoration: none; /* No underline */
+    color: white; /* White text */
+}
+
+/* Search Container (Map Page) */
+.search-container {
+    display: flex; /* Flexbox layout */
+    justify-content: center; /* Centers items */
+    background-color: #ffffff; /* White background */
+    padding: 20px; /* Internal padding */
+}
+
+#searchInput {
+    width: 300px; /* Fixed width */
+    padding: 12px 20px; /* Internal padding */
+    border: 2px solid #a9a9a9; /* Gray border */
+    border-radius: 20px; /* Rounded corners */
+    font-size: 16px; /* Text size */
+    color: #333; /* Dark gray text */
+    outline: none; /* No focus outline */
+}
+
+#searchButton {
+    background-color: transparent; /* No background */
+    border: none; /* No border */
+    cursor: pointer; /* Pointer on hover */
+    padding: 12px 20px; /* Clickable area */
+}
+
+#searchButton svg {
+    width: 24px; /* Icon width */
+    height: 24px; /* Icon height */
+    color: #333; /* Dark gray icon */
+}
+
+#searchButton:focus {
+    outline: 2px solid #006400; /* Focus indicator */
+}
+
+/* Campus Map */
+.campusmap p {
+    margin: 0 auto 20px; /* Centers with bottom spacing */
+    width: fit-content; /* Matches content width */
+    font-size: 1.5em; /* Larger text */
+}
+
+.reserved-space {
+    height: 600px;
+}
+
+/* Feedback Form */
+.feedback {
+    padding: 20px; /* Internal padding */
+}
+
+.feedback-form {
+    display: grid; /* Grid layout */
+    place-items: center; /* Centers items */
+    background-color: #ffffff; /* White background */
+    padding: 20px; /* Internal padding */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 1px solid #e0e0e0; /* Light border */
+    width: 100%; /* Full width */
+    max-width: 600px; /* Max width */
+    margin: 20px auto; /* Centers with spacing */
+}
+
+.feedback-form h2 {
+    color: #006400; /* Dark green text */
+    text-align: center; /* Centers text */
+    margin-bottom: 20px; /* Space below */
+}
+
+.input-group {
+    display: flex; /* Flexbox layout */
+    justify-content: space-between; /* Spaces inputs */
+    width: 100%; /* Full width */
+    margin-bottom: 20px; /* Space below */
+}
+
+.input-group label {
+    display: block; /* Stacks above input */
+    margin-bottom: 5px; /* Space below */
+    font-weight: bold; /* Bold text */
+}
+
+input[type="text"],
+input[type="email"] {
+    width: calc(50% - 10px); /* Half width minus spacing */
+    padding: 10px; /* Internal padding */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Text size */
+}
+
+textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Internal padding */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Text size */
+    resize: none; /* No resizing */
+    margin-bottom: 20px; /* Space below */
+}
+
+.feedback-form button {
+    background-color: #006400; /* Dark green background */
+    padding: 10px 20px; /* Internal padding */
+}
+
+/* Footer */
+footer {
+    background-color: #000000; /* Black background */
+    color: white; /* White text */
+    text-align: center; /* Centers text */
+    padding: 20px; /* Internal padding */
+}
+
+.footer-content {
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Stacks items vertically */
+    align-items: center; /* Centers items horizontally */
+    gap: 20px; /* Space between logo and text containers */
+}
+
+.logo-container {
+    display: flex; /* Flexbox layout for logos */
+    flex-wrap: wrap; /* Allows wrapping on small screens */
+    justify-content: center; /* Centers logos horizontally */
+    gap: 20px; /* Space between logos */
+}
+
+.footer-content img {
+    width: 150px; /* Image width */
+    height: auto; /* Maintains aspect ratio */
+    object-fit: contain; /* Ensures the image fits without distortion */
+    max-width: 100%; /* Prevents overflow on small screens */
+}
+
+.text-container {
+    display: flex; /* Flexbox layout for text */
+    flex-direction: column; /* Stacks text vertically */
+    align-items: center; /* Centers text horizontally */
+    gap: 5px; /* Small space between text lines */
+}
+
+.footer-content p {
+    font-weight: bold; /* Bold text by default */
+    margin: 0; /* Removes default margins */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; /* Stack items vertically */
+        padding: 10px; /* Reduced padding */
+    }
+    .logo img {
+        width: 80px; /* Smaller logo */
+        margin: 0 0 10px; /* Bottom spacing */
+    }
+    .tcgc {
+        text-align: center; /* Center text */
+    }
+    .system {
+        position: static; /* Remove absolute positioning */
+        transform: none; /* Reset transform */
+        margin-top: 10px; /* Space above */
+    }
+    nav ul {
+        flex-direction: column; /* Stack nav items */
+        padding: 10px 0; /* Reduced padding */
+    }
+    nav ul li {
+        margin: 0 0 10px; /* Space below each item */
+    }
+    .input-group {
+        flex-direction: column; /* Stack inputs */
+    }
+    input[type="text"],
+    input[type="email"] {
+        width: 100%; /* Full width */
+        margin-bottom: 15px; /* Space below */
+    }
+    .search-container {
+        flex-direction: column; /* Stack search items */
+        align-items: center; /* Center items */
+    }
+    #searchInput {
+        width: 80%; /* Reduced width */
+        margin-bottom: 10px; /* Space below */
+    }
+}
