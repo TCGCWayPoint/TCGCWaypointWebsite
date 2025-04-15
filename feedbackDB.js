@@ -1,15 +1,26 @@
-const mongoose = require('mongoose');
 
-// Replace the <...> placeholders with your actual Atlas credentials and DB name
-const uri = 'mongodb://riodanicaave02:gr@dSch00l@ac-3gomgnu-shard-00-00.syabp5w.mongodb.net:27017,ac-3gomgnu-shard-00-01.syabp5w.mongodb.net:27017,ac-3gomgnu-shard-00-02.syabp5w.mongodb.net:27017/?replicaSet=atlas-5u9h1m-shard-0&ssl=true&authSource=admin&retryWrites=true&w=majority&appName=feedbackDB';
+const { MongoClient, ServerApiVersion } = require('mongodb');
+const uri = "mongodb+srv://riodanicaave02:gr@dSch00l@cluster0.mvonr.mongodb.net/?appName=Cluster0";
 
-mongoose.connect(uri, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
+// Create a MongoClient with a MongoClientOptions object to set the Stable API version
+const client = new MongoClient(uri, {
+  serverApi: {
+    version: ServerApiVersion.v1,
+    strict: true,
+    deprecationErrors: true,
+  }
 });
 
-const db = mongoose.connection;
-
-db.once('open', () => console.log('Connected to MongoDB Atlas'));
-
-module.exports = db;
+async function run() {
+  try {
+    // Connect the client to the server	(optional starting in v4.7)
+    await client.connect();
+    // Send a ping to confirm a successful connection
+    await client.db("admin").command({ ping: 1 });
+    console.log("Pinged your deployment. You successfully connected to MongoDB!");
+  } finally {
+    // Ensures that the client will close when you finish/error
+    await client.close();
+  }
+}
+run().catch(console.dir);
