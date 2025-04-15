@@ -6,7 +6,7 @@ const Feedback = require('./model/feedback'); // Import the Feedback model (make
 
 const app = express();
 const port = 3000;
-const HOST = '192.168.5.206'; // Replace with your actual IP
+const HOST = '0.0.0.0'; // Replace with your actual IP
 
 // 1. Connect to MongoDB Atlas
 mongoose.connect('mongodb+srv://riodanicaave02@gmail.com:gr@dSch00l@Cluster0.mongodb.net/feedbackDB?retryWrites=true&w=majority', {
