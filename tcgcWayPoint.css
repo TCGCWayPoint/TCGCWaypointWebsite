@@ -14,6 +14,50 @@ h1, h2, h3, h4 {
 }
 
 /* Header */
+header {
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Vertically centers items */
+    background-color: #15331d; /* Dark green background */
+    color: white; /* White text */
+    padding: 20px; /* Internal padding */
+    position: relative; /* For absolute positioning of .system */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.logo img {
+    width: 100px; /* Logo width */
+    height: auto; /* Maintains aspect ratio */
+    margin-right: 20px; /* Space to the right */
+}
+
+.tcgc {
+    text-align: left; /* Left-aligned text */
+    flex-grow: 1; /* Expands to fill space */
+}
+
+.tcgc h1 {
+    font-size: 2em; /* 32px heading */
+    margin-bottom: 5px; /* Space below */
+}
+
+.tcgc p {
+    font-size: 1em; /* 16px text */
+    margin: 0; /* Removes default margins */
+}
+
+.system {
+    position: absolute; /* Positions relative to header */
+    bottom: 0; /* Bottom of header */
+    left: 50%; /* Horizontal center */
+    transform: translateX(-50%); /* Centers perfectly */
+    text-align: center; /* Centers text */
+}
+
+.system h2 {
+    font-size: 1.5em; /* 24px heading */
+    margin: 5px 0; /* Vertical spacing */
+}
+
 @media (max-width: 600px) {
     header {
       padding: 10px; /* Reduce padding */
@@ -47,6 +91,7 @@ h1, h2, h3, h4 {
     }
   }
   
+
 /* Navigation */
 nav {
     position: sticky; /* Sticks to top when scrolling */
