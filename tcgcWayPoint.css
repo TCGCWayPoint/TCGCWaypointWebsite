@@ -35,15 +35,15 @@ header {
     margin-bottom: 2px;
 }
 
-.tcgc p {
+.tcgc h5 {
     font-size: 0.9em; /* Slightly smaller subtext */
     margin: 0;
 }
 
-/*.system h2 {
+.tcgc h2 {
     font-size: 1.1em; /* Smaller system text */
-/*    margin: 3px 0;
-} */
+    margin: 3px 0;
+} 
 
 
 @media (max-width: 600px) {
