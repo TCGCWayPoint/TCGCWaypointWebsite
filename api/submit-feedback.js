@@ -1,6 +1,6 @@
 // api/submit-feedback.js
-import connectToDatabase from 'TCGCWaypointWebsite\mongodb.js';
-import Feedback from 'model\feedback.js"/feedbacks'; // Import your Feedback model
+import connectToDatabase from 'TCGCWaypointWebsite/mongodb.js';
+import Feedback from 'model/feedback.js'; // Import your Feedback model
 
 export default async function handler(req, res) {
   if (req.method === 'POST') {
