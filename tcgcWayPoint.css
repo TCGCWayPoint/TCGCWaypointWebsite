@@ -224,7 +224,7 @@ button:focus {
 
 /* Campus Map */
 .campusmap p {
-    margin: 0 auto 30px; /* Centers with bottom spacing */
+    margin: 0 auto 20px; /* Centers with bottom spacing */
     width: fit-content; /* Matches content width */
     font-size: 1.5em; /* Larger text */
 }
@@ -292,6 +292,13 @@ textarea {
 .feedback-form button {
     background-color: #006400; /* Dark green background */
     padding: 10px 20px; /* Internal padding */
+}
+
+@media (max-width: 480px) {
+    .feedback-form {
+        padding: 12px;      /* Slightly smaller padding */
+        width: 95%;         /* More breathing room on small screens */
+    }
 }
 
 /* Footer */
