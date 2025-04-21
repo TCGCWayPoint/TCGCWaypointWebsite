@@ -270,11 +270,12 @@ button:focus {
     display: block; /* Stacks above input */
     margin-bottom: 5px; /* Space below */
     font-weight: bold; /* Bold text */
+    width: 100%; /* Ensure label takes full width of its container */
 }
 
 input[type="text"],
 input[type="email"] {
-    width: calc(50% - 10px); /* Half width minus spacing */
+    width: calc(50% - 5px); /* Half width minus half the gap */
     padding: 10px; /* Internal padding */
     border: 1px solid #ccc; /* Light gray border */
     border-radius: 5px; /* Rounded corners */
@@ -303,20 +304,34 @@ textarea {
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    width: 100%; /* Full width for better mobile appearance */
+    max-width: 200px; /* Limit button width on larger screens */
+    margin: 0 auto; /* Center the button */
 }
 
 .feedback-form button:hover {
     background-color: #004d00;
 }
 
+/* Mobile adjustments */
 @media (max-width: 600px) {
     .input-group {
-        flex-direction: column; /* Stack inputs */
+        flex-direction: column; /* Stack inputs vertically */
+        gap: 15px; /* Increase gap for better spacing */
     }
 
     input[type="text"],
     input[type="email"] {
         width: 100%; /* Full width on small screens */
+    }
+
+    .feedback-form {
+        padding: 15px; /* Slightly less padding on mobile */
+    }
+
+    .feedback-form button {
+        width: 100%; /* Full width on mobile */
+        max-width: none; /* Remove max-width restriction */
     }
 }
 
