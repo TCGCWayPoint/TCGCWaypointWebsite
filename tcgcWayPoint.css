@@ -259,9 +259,11 @@ button:focus {
 
 .input-group {
     display: flex; /* Flexbox layout */
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
     justify-content: space-between; /* Spaces inputs */
     width: 100%; /* Full width */
     margin-bottom: 20px; /* Space below */
+    gap: 10px; /* Add gap between fields */
 }
 
 .input-group label {
@@ -277,6 +279,7 @@ input[type="email"] {
     border: 1px solid #ccc; /* Light gray border */
     border-radius: 5px; /* Rounded corners */
     font-size: 16px; /* Text size */
+    box-sizing: border-box;
 }
 
 textarea {
@@ -287,11 +290,23 @@ textarea {
     font-size: 16px; /* Text size */
     resize: none; /* No resizing */
     margin-bottom: 20px; /* Space below */
+    box-sizing: border-box;
 }
 
+/* Button styling */
 .feedback-form button {
-    background-color: #006400; /* Dark green background */
-    padding: 10px 20px; /* Internal padding */
+    background-color: #006400;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.feedback-form button:hover {
+    background-color: #004d00;
 }
 
 @media (max-width: 480px) {
@@ -299,7 +314,7 @@ textarea {
         padding: 12px;      /* Slightly smaller padding */
         width: 95%;         /* More breathing room on small screens */
     }
-    
+
     .input-group {
         flex-direction: column; /* Stack inputs */
     }
