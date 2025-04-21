@@ -309,12 +309,7 @@ textarea {
     background-color: #004d00;
 }
 
-@media (max-width: 480px) {
-    .feedback-form {
-        padding: 12px;      /* Slightly smaller padding */
-        width: 95%;         /* More breathing room on small screens */
-    }
-
+@media (max-width: 600px) {
     .input-group {
         flex-direction: column; /* Stack inputs */
     }
@@ -324,6 +319,7 @@ textarea {
         width: 100%; /* Full width on small screens */
     }
 }
+
 
 /* Footer */
 footer {
