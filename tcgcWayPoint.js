@@ -1,4 +1,5 @@
-document.querySelector('#feedback-form').addEventListener('submit', async function(event) {
+document.addEventListener('DOMContentLoaded', () => {
+    document.querySelector('#feedback-form').addEventListener('submit', async function(event) {
     event.preventDefault();
   
     const name = document.getElementById('name').value;
@@ -27,4 +28,5 @@ document.querySelector('#feedback-form').addEventListener('submit', async functi
       alert('An error occurred. Please try again.');
     }
   });
-  
+}
+)
