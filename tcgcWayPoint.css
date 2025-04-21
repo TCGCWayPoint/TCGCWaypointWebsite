@@ -299,6 +299,15 @@ textarea {
         padding: 12px;      /* Slightly smaller padding */
         width: 95%;         /* More breathing room on small screens */
     }
+    
+    .input-group {
+        flex-direction: column; /* Stack inputs */
+    }
+
+    input[type="text"],
+    input[type="email"] {
+        width: 100%; /* Full width on small screens */
+    }
 }
 
 /* Footer */
