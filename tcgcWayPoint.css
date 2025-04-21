@@ -15,81 +15,62 @@ h1, h2, h3, h4 {
 
 /* Header */
 header {
-    display: flex; /* Flexbox layout */
-    align-items: center; /* Vertically centers items */
-    background-color: #15331d; /* Dark green background */
-    color: white; /* White text */
-    padding: 20px; /* Internal padding */
-    position: relative; /* For absolute positioning of .system */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    display: flex;
+    align-items: center;
+    background-color: #15331d;
+    color: white;
+    padding: 10px 15px; /* Reduced vertical (top/bottom) padding */
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .logo img {
-    width: 100px; /* Logo width */
-    height: auto; /* Maintains aspect ratio */
-    margin-right: 20px; /* Space to the right */
-}
-
-.tcgc {
-    text-align: left; /* Left-aligned text */
-    flex-grow: 1; /* Expands to fill space */
+    width: 80px; /* Slightly smaller logo */
+    height: auto;
+    margin-right: 15px;
 }
 
 .tcgc h1 {
-    font-size: 2em; /* 32px heading */
-    margin-bottom: 5px; /* Space below */
+    font-size: 1.4em; /* Reduced heading size */
+    margin-bottom: 2px;
 }
 
 .tcgc p {
-    font-size: 1em; /* 16px text */
-    margin: 0; /* Removes default margins */
-}
-
-.system {
-    position: absolute; /* Positions relative to header */
-    bottom: 0; /* Bottom of header */
-    left: 50%; /* Horizontal center */
-    transform: translateX(-50%); /* Centers perfectly */
-    text-align: center; /* Centers text */
+    font-size: 0.9em; /* Slightly smaller subtext */
+    margin: 0;
 }
 
 .system h2 {
-    font-size: 1.5em; /* 24px heading */
-    margin: 5px 0; /* Vertical spacing */
+    font-size: 1.1em; /* Smaller system text */
+    margin: 3px 0;
 }
+
 
 @media (max-width: 600px) {
     header {
-      padding: 10px; /* Reduce padding */
-      flex-direction: column; /* Stack logo and text vertically */
-      align-items: flex-start; /* Align items to the left */
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px 10px;
     }
-  
+
     .logo img {
-      width: 70px; /* Smaller logo */
-      margin-right: 0; /* No horizontal spacing needed */
-      margin-bottom: 10px; /* Space below the logo */
+        width: 60px;
+        margin-bottom: 5px;
     }
-  
+
     .tcgc h1 {
-      font-size: 1.5em; /* Reduce heading size */
+        font-size: 1.2em;
     }
-  
+
     .tcgc p {
-      font-size: 0.9em; /* Slightly smaller paragraph */
+        font-size: 0.85em;
     }
-  
-    .system {
-      position: static; /* Let it flow naturally */
-      transform: none; /* Remove transform */
-      text-align: left; /* Align text to left */
-      margin-top: 10px;
-    }
-  
+
     .system h2 {
-      font-size: 1.2em; /* Smaller subtitle */
+        font-size: 1em;
     }
-  }
+}
+
   
 
 /* Navigation */
@@ -246,10 +227,6 @@ button:focus {
     margin: 0 auto 30px; /* Centers with bottom spacing */
     width: fit-content; /* Matches content width */
     font-size: 1.5em; /* Larger text */
-    border: 3px solid #4CAF50;  /* Green border */
-    border-radius: 8px;         /* Optional: rounded corners */
-    padding: 5px;               /* Optional: internal spacing */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
 }
 
 .reserved-space {
