@@ -9,7 +9,7 @@ const port = 3000;
 const HOST = '0.0.0.0'; // Replace with your actual IP
 
 // 1. Connect to MongoDB Atlas
-mongoose.connect('mongodb+srv://riodanicaave02@gmail.com:gr@dSch00l@Cluster0.mongodb.net/feedbackDB?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://riodanicaave02:gr@dSch00l@cluster0.mvonr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
