@@ -422,10 +422,3 @@ body {
     display: block; /* Show when instructions are present */
   }
 
-  
-@media (max-width: 600px) {
-    .top-controls {
-        flex-direction: column;
-        align-items: stretch;
-    }
-}
