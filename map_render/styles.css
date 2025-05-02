@@ -82,7 +82,7 @@ body {
 
 /* === Route Planner === */
 .route-planner {
-    position: absolute;
+    position: relative;
     top: 6.5px;
     left: 50px;
     z-index: 1001;
