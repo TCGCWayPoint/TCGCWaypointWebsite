@@ -243,9 +243,9 @@ body {
 
 /* === Floor Switcher === */
 .floor-switcher {
-    position: relative;
-    top: 10px;
-    left: 350px;
+    position: absolute;
+    top: 75px;
+    left: auto;
     z-index: 1000;
     background: white;
     padding: 8px 0;
@@ -256,27 +256,27 @@ body {
     flex-shrink: 0;
     /* flex: 1 1 auto; */
     gap: 4px;
-    width: 140px;
-    min-width: 140px;
+    width: 40px;
+    min-width: 40px;
 }
 
 .floor-header {
     text-align: center;
-    padding: 8px 16px;
-    font-size: 13px;
+    padding: 4px 2px;
+    font-size: 10px;
     color: #5f6368;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     border-bottom: 1px solid #f1f3f4;
-    margin-bottom: 4px;
+    margin-bottom: 2px;
 }
 
 .floor-btn {
-    padding: 8px 16px;
+    padding: 4px 4px;
     background: transparent;
-    text-align: left;
-    font-size: 14px;
+    text-align: center;
+    font-size: 10px;
     color: #202124;
     transition: background 0.2s ease;
     margin: 0 8px;
@@ -313,7 +313,7 @@ body {
 }
 
 .eye-icon {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 /* === Marker Styles === */

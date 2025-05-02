@@ -52,9 +52,9 @@ const state = {
 // === Floor Name === 
 const getFloorName = (floor) => {
   const floorMap = {
-    '0': 'Ground Floor',
-    '1': 'Second Floor',
-    '2': 'Third Floor',
+    '0': 'GF',
+    '1': '2F',
+    '2': '3F',
     // Add more floors as needed
   };
   return floorMap[floor] || `Level ${floor}`; // Fallback to "Level X" if not mapped
