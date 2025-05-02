@@ -13,21 +13,32 @@ h1, h2, h3, h4 {
     font-family: 'Roboto', sans-serif; /* Bold headings with Roboto */
 }
 
+/* Global Container */
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
 /* Header */
 header {
-    display: flex; /* Flexbox layout */
-    align-items: center; /* Vertically centers items */
-    background-color: #15331d; /* Dark green background */
-    color: white; /* White text */
-    padding: 20px; /* Internal padding */
-    position: relative; /* For absolute positioning of .system */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #15331d;
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
 }
 
 .logo img {
     width: 100px; /* Logo width */
     height: auto; /* Maintains aspect ratio */
-    margin-right: 20px; /* Space to the right */
 }
 
 .tcgc {
@@ -36,12 +47,12 @@ header {
 }
 
 .tcgc h1 {
-    font-size: 2em; /* 32px heading */
+    font-size: clamp(1.5rem, 2vw, 2.5rem);
     margin-bottom: 5px; /* Space below */
 }
 
 .tcgc p {
-    font-size: 1em; /* 16px text */
+    font-size: clamp(1rem, 1.2vw, 1.2rem);
     margin: 0; /* Removes default margins */
 }
 
@@ -54,7 +65,7 @@ header {
 }
 
 .system h2 {
-    font-size: 1.5em; /* 24px heading */
+    font-size: clamp(1.2rem, 1.5vw, 1.5rem);
     margin: 5px 0; /* Vertical spacing */
 }
 
@@ -267,14 +278,16 @@ footer {
 
 .footer-content p {
     font-weight: bold; /* Bold text by default */
+    font-size: clamp(1rem, 1.2vw, 1.2rem);
     margin: 0; /* Removes default margins */
 }
 
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
-    header {
-        flex-direction: column; /* Stack items vertically */
-        padding: 10px; /* Reduced padding */
+    header .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
     .logo img {
         width: 80px; /* Smaller logo */
@@ -310,5 +323,17 @@ footer {
     #searchInput {
         width: 80%; /* Reduced width */
         margin-bottom: 10px; /* Space below */
+    }
+    .footer-content {
+        padding: 10px;
+    }
+
+    .footer-content img {
+        width: 100px;
+    }
+
+    .tcgc h1,
+    .system h2 {
+        text-align: center;
     }
 }
