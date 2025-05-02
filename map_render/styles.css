@@ -39,7 +39,7 @@ body {
 /* === Search Container === */
 .search-container {
     position: absolute;
-    top: 10px;
+    top: 6.5px;
     left: 50px;
     z-index: 1000;
     background: white;
@@ -83,14 +83,15 @@ body {
 /* === Route Planner === */
 .route-planner {
     position: absolute;
-    top: 10px;
+    top: 6.5px;
     left: 50px;
     z-index: 1001;
     background: white;
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.15);
-    width: 290px;
+    width: 240px;
+    min-width: 150px;
     display: none;
 }
 
