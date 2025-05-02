@@ -16,6 +16,7 @@
 </head>
 <body>
 
+<div class="top-controls">
     <!-- Search bar and route button -->
     <div class="search-container">
         <input 
@@ -79,14 +80,14 @@
     <!-- Floor level switching interface -->
     <div class="floor-switcher">
         <div class="floor-header">Main Building Floor</div>
-        <button class="floor-btn" data-floor="2">Third Floor</button>
-        <button class="floor-btn" data-floor="1">Second Floor</button>
-        <button class="floor-btn active" data-floor="0">Ground Floor</button>
+        <button class="floor-btn" data-floor="2"><span>Third Floor</span></button>
+        <button class="floor-btn" data-floor="1"><span>Second Floor</span></button>
+        <button class="floor-btn active" data-floor="0"><span> Ground Floor</span></button>
         <button id="toggle-labels" class="toggle-labels-btn" title="Toggle Labels">
             <span class="eye-icon">👁️</span>
         </button>
     </div>
-
+</div>
     <!-- Map container -->
     <div id="map"></div>
 

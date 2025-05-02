@@ -250,7 +250,7 @@ footer {
     color: white; /* White text */
     text-align: center; /* Centers text */
     padding: 20px; /* Internal padding */
-    height: auto;
+    height: 10%;
 }
 
 .footer-content {
