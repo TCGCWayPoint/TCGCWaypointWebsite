@@ -1,0 +1,403 @@
+/* === Reset & Base Styles === */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#map {
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+}
+
+/* === Loading Screen === */
+.loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    font-size: 16px;
+}
+
+/* === Search Container === */
+.search-container {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    z-index: 1000;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    width: 300px;
+}
+
+#search-input {
+    width: 85%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#search-results {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-top: 5px;
+}
+
+.search-result-item {
+    padding: 8px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+}
+
+.search-result-item:hover {
+    background-color: #f5f5f5;
+}
+
+/* === Route Planner === */
+.route-planner {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    z-index: 1001;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+    width: 290px;
+    display: none;
+}
+
+.route-planner.active {
+    display: block;
+}
+
+.route-planning-view,
+.single-search-view {
+    display: none;
+}
+
+.route-planner.active .route-planning-view,
+.route-planner.active .single-search-view {
+    display: block;
+}
+
+.route-planning-view {
+    display: block;
+}
+
+.search-field {
+    margin-bottom: 10px;
+}
+
+.search-field input {
+    width: 85%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.divider {
+    height: 1px;
+    background: #eee;
+    margin: 15px 0;
+}
+
+/* === Route Search Results === */
+.route-search-results {
+    max-height: 500px;
+    overflow-y: auto;
+    margin-top: 5px;
+    background: white;
+    /* border: 1px solid #ddd; */
+    border-radius: 4px;
+    position: absolute;
+    width: 85%;
+    z-index: 1002; /*Ensure it appears above other elements*/
+}
+
+.route-search-results .search-result-item {
+    padding: 8px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+}
+
+.route-search-results .search-result-item:hover {
+    background-color: #f5f5f5;
+}
+
+/* Route Options */
+.route-options {
+    display: none;
+    position: absolute;
+    width: 85%;
+    background-color: #1a1a1a;
+    border-radius: 4px;
+    margin-top: 5px;
+    z-index: 1003; /* Above route planner (1001) and search results (1002) */
+}
+
+.route-option {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    background: none;
+    border: none;
+    color: white;
+    text-align: left;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.route-option:hover {
+    background-color: #333;
+}
+
+.option-icon {
+    margin-right: 8px;
+    font-size: 16px;
+}
+
+.route-option + .route-option {
+    border-top: 1px solid #444;
+}
+
+
+/* === Buttons === */
+.route-button,
+.directions-button,
+.routing-button,
+.floor-btn,
+.back-button {
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.route-button {
+    width: 36px;
+    height: 36px;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+}
+
+.route-button img {
+    width: 20px;
+    height: 20px;
+}
+
+.back-button {
+    background: none;
+    font-size: 16px;
+    padding: 5px 0;
+    margin-bottom: 10px;
+    color: #049123;
+}
+
+.directions-button,
+.routing-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #047615;
+    color: white;
+    margin-top: 10px;
+}
+
+.routing-button:hover {
+    background-color: #45a049;
+}
+
+.routing-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+/* === Floor Switcher === */
+.floor-switcher {
+    position: absolute;
+    top: 10px;
+    left: 380px;
+    z-index: 1000;
+    background: white;
+    padding: 8px 0;
+    border-radius: 8px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 140px;
+}
+
+.floor-header {
+    text-align: center;
+    padding: 8px 16px;
+    font-size: 13px;
+    color: #5f6368;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid #f1f3f4;
+    margin-bottom: 4px;
+}
+
+.floor-btn {
+    padding: 8px 16px;
+    background: transparent;
+    text-align: left;
+    font-size: 14px;
+    color: #202124;
+    transition: background 0.2s ease;
+    margin: 0 8px;
+}
+
+.floor-btn:hover {
+    background-color: #f1f3f4;
+}
+
+.floor-btn.active {
+    background-color: #e8f0fe;
+    color: #035d0c;
+}
+
+/* === Toggle Labels Button === */
+.toggle-labels-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 8px;
+    background: transparent;
+    font-size: 16px;
+    color: #202124;
+    margin: 4px 8px;
+    transition: background 0.2s ease;
+}
+
+.toggle-labels-btn:hover {
+    background-color: #f1f3f4;
+}
+
+.toggle-labels-btn.active .eye-icon {
+    color: #035d0c;
+}
+
+.eye-icon {
+    font-size: 20px;
+}
+
+/* === Marker Styles === */
+.marker-highlight {
+    color: #FF5722;
+    font-weight: bold;
+}
+
+.current-location-marker {
+    background: #4285F4;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.current-location-marker.approximate {
+    background: #FF9800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.current-location-marker.approximate::after {
+    content: "?";
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+/* === Notifications === */
+.location-notification {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 10000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    text-align: center;
+    max-width: 80%;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+/* === Leaflet Routing Machine === */
+.leaflet-routing-container {
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    width: 300px;
+}
+
+/* === Animations === */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateX(-50%) translateY(20px); }
+    to { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+
+@keyframes pulse {
+    0% { transform: scale(0.95); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(0.95); }
+}
+
+
+/* === Room Labels === */
+.room-label {
+    /* background: rgba(255, 255, 255, 0.8); */
+    /* color: #333; */
+    font-size: 8px;
+    font-weight: normal;
+    padding: 2px 6px;
+    border-radius: 3px;
+    /* border: 1px solid #ccc; */
+    /* white-space: nowrap; */
+    text-align: center;
+  }
+
+  /* Existing styles remain unchanged */
+
+/* Stair Marker */
+.stair-marker {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+  }
+
+  .route-instructions {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+    display: none; /* Hidden by default, shown when instructions are set */
+  }
+  
+  .route-instructions.active {
+    display: block; /* Show when instructions are present */
+  }
+
+  
