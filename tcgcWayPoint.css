@@ -26,14 +26,15 @@ h1, h2, h3, h4 {
 header {
     background-color: #15331d;
     color: white;
-    padding: 20px 0;
+    padding: 10 px 20px;
 }
 
 header .container {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     position: relative;
+    height: 20%;
 }
 
 .logo img {
@@ -48,7 +49,7 @@ header .container {
 
 .tcgc h1 {
     font-size: clamp(1.5rem, 2vw, 2.5rem);
-    margin-bottom: 5px; /* Space below */
+    margin-bottom: 0px; /* Space below */
 }
 
 .tcgc p {
@@ -57,16 +58,20 @@ header .container {
 }
 
 .system {
-    position: absolute; /* Positions relative to header */
-    bottom: 0; /* Bottom of header */
-    left: 50%; /* Horizontal center */
-    transform: translateX(-50%); /* Centers perfectly */
-    text-align: center; /* Centers text */
+    text-align: center;
+    color: white;
+    background-color: #15331d; /* Same dark green as header */
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-.system h2 {
-    font-size: clamp(1.2rem, 1.5vw, 1.5rem);
-    margin: 5px 0; /* Vertical spacing */
+.white-line {
+    border: none;
+    height: 1px;
+    background-color: white;
+    margin: 1px 0; /* optional spacing */
 }
 
 /* Navigation */
@@ -85,11 +90,10 @@ nav ul {
     align-items: center; /* Vertically centers */
     margin: 0; /* Removes default margin */
     flex-wrap: nowrap;
-    gap: 1rem;
 }
 
 nav ul li {
-    margin-right: 20px; /* Space between items */
+    margin-right: 0px; /* Space between items */
 }
 
 nav ul li a {
@@ -246,6 +250,7 @@ footer {
     color: white; /* White text */
     text-align: center; /* Centers text */
     padding: 20px; /* Internal padding */
+    height: auto;
 }
 
 .footer-content {
@@ -263,7 +268,7 @@ footer {
 }
 
 .footer-content img {
-    width: 150px; /* Image width */
+    width: 100px; /* Image width */
     height: auto; /* Maintains aspect ratio */
     object-fit: contain; /* Ensures the image fits without distortion */
     max-width: 100%; /* Prevents overflow on small screens */
@@ -302,11 +307,12 @@ footer {
         margin-top: 10px; /* Space above */
     }
     nav ul {
-        flex-direction: column; /* Stack nav items */
+        flex-direction: row; /* Stack nav items */
         padding: 10px 0; /* Reduced padding */
     }
     nav ul li {
-        margin: 0 0 10px; /* Space below each item */
+        padding: 4px;
+        font-size: 0.9rem;
     }
     .input-group {
         flex-direction: column; /* Stack inputs */
