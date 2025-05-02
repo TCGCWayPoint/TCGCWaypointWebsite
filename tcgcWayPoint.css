@@ -15,63 +15,48 @@ h1, h2, h3, h4 {
 
 /* Header */
 header {
-    display: flex;
-    align-items: center;
-    background-color: #15331d;
-    color: white;
-    padding: 10px 15px; /* Reduced vertical (top/bottom) padding */
-    position: relative;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Vertically centers items */
+    background-color: #15331d; /* Dark green background */
+    color: white; /* White text */
+    padding: 20px; /* Internal padding */
+    position: relative; /* For absolute positioning of .system */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 .logo img {
-    width: 80px; /* Slightly smaller logo */
-    height: auto;
-    margin-right: 15px;
+    width: 100px; /* Logo width */
+    height: auto; /* Maintains aspect ratio */
+    margin-right: 20px; /* Space to the right */
+}
+
+.tcgc {
+    text-align: left; /* Left-aligned text */
+    flex-grow: 1; /* Expands to fill space */
 }
 
 .tcgc h1 {
-    font-size: 1.4em; /* Reduced heading size */
-    margin-bottom: 2px;
+    font-size: 2em; /* 32px heading */
+    margin-bottom: 5px; /* Space below */
 }
 
-.tcgc h6 {
-    font-size: 0.9em; /* Slightly smaller subtext */
-    margin: 0;
+.tcgc p {
+    font-size: 1em; /* 16px text */
+    margin: 0; /* Removes default margins */
 }
 
-.tcgc h2 {
-    font-size: 1.1em; /* Smaller system text */
-    margin: 3px 0;
-} 
-
-
-@media (max-width: 600px) {
-    header {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 8px 10px;
-    }
-
-    .logo img {
-        width: 60px;
-        margin-bottom: 5px;
-    }
-
-    .tcgc h1 {
-        font-size: 1.2em;
-    }
-
-    .tcgc p {
-        font-size: 0.85em;
-    }
-
-    .system h2 {
-        font-size: 1em;
-    }
+.system {
+    position: absolute; /* Positions relative to header */
+    bottom: 0; /* Bottom of header */
+    left: 50%; /* Horizontal center */
+    transform: translateX(-50%); /* Centers perfectly */
+    text-align: center; /* Centers text */
 }
 
-  
+.system h2 {
+    font-size: 1.5em; /* 24px heading */
+    margin: 5px 0; /* Vertical spacing */
+}
 
 /* Navigation */
 nav {
@@ -82,12 +67,14 @@ nav {
 
 nav ul {
     list-style-type: none; /* No bullets */
-    padding: 15px 0; /* Vertical padding */
+    padding: 10px 0; /* Vertical padding */
     background-color: #f5f5d5; /* Softer yellow background */
     display: flex; /* Flexbox layout */
     justify-content: center; /* Centers items */
     align-items: center; /* Vertically centers */
     margin: 0; /* Removes default margin */
+    flex-wrap: nowrap;
+    gap: 1rem;
 }
 
 nav ul li {
@@ -229,69 +216,17 @@ button:focus {
     font-size: 1.5em; /* Larger text */
 }
 
-.reserved-space {
+.reserved-space iframe /* Added 05/02/25 */ {
     height: 600px;
+    border: 3px solid #4CAF50; /* Green border */ 
+    border-radius: 8px; /* Rounded corners  */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle drop shadow */
 }
 
-/* Feedback Form */
+/* Feedback */
 .feedback {
-    padding: 20px; /* Internal padding */
-}
-
-.feedback-form {
-    display: grid; /* Grid layout */
-    place-items: center; /* Centers items */
-    background-color: #ffffff; /* White background */
-    padding: 20px; /* Internal padding */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    border: 1px solid #e0e0e0; /* Light border */
-    width: 100%; /* Full width */
-    max-width: 600px; /* Max width */
-    margin: 20px auto; /* Centers with spacing */
-}
-
-.feedback-form h2 {
-    color: #006400; /* Dark green text */
-    text-align: center; /* Centers text */
-    margin-bottom: 20px; /* Space below */
-}
-
-.input-group {
-    display: flex; /* Flexbox layout */
-    justify-content: space-between; /* Spaces inputs */
-    width: 100%; /* Full width */
-    margin-bottom: 20px; /* Space below */
-}
-
-.input-group label {
-    display: block; /* Stacks above input */
-    margin-bottom: 5px; /* Space below */
-    font-weight: bold; /* Bold text */
-}
-
-input[type="text"],
-input[type="email"] {
-    width: calc(50% - 10px); /* Half width minus spacing */
-    padding: 10px; /* Internal padding */
-    border: 1px solid #ccc; /* Light gray border */
-    border-radius: 5px; /* Rounded corners */
-    font-size: 16px; /* Text size */
-}
-
-textarea {
-    width: 100%; /* Full width */
-    padding: 10px; /* Internal padding */
-    border: 1px solid #ccc; /* Light gray border */
-    border-radius: 5px; /* Rounded corners */
-    font-size: 16px; /* Text size */
-    resize: none; /* No resizing */
-    margin-bottom: 20px; /* Space below */
-}
-
-.feedback-form button {
-    background-color: #006400; /* Dark green background */
-    padding: 10px 20px; /* Internal padding */
+    text-align: center;
+    padding: 2 rem;
 }
 
 /* Footer */
