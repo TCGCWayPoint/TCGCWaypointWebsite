@@ -202,7 +202,7 @@ button:focus {
     padding: 12px 20px; /* Internal padding */
     border: 2px solid #a9a9a9; /* Gray border */
     border-radius: 20px; /* Rounded corners */
-    font-size: 16px; /* Text size */
+    font-size: 12px; /* Text size */
     color: #333; /* Dark gray text */
     outline: none; /* No focus outline */
 }
