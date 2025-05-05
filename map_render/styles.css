@@ -38,7 +38,7 @@ body {
 
 /* === Search Container === */
 .search-container {
-    position: relative;
+    position: absolute;
     top: 6.5px;
     left: 50px;
     z-index: 1000;
