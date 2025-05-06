@@ -238,11 +238,94 @@ button:focus {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle drop shadow */
 }
 
+/* Legends */
+.legend {
+    text-align: center; /* Left-aligned text */
+    max-width: 500px; /* Limits width for readability */
+    margin: 0 auto; /* Centers section */
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+ .legend-item img {
+    width: 24px;
+    height: 24px;
+    margin-right: 0.5rem;
+  }
+  
+ .legend-item h4 {
+    margin: 0;
+    font-size: 1rem;
+  }
+
+ .legend h3 {
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+/* Legend line next to text (solid lines) */
+.line-legend {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.solid-line {
+  width: 40px;
+  height: 8px;
+  margin-right: 0.5rem;
+  border-radius: 2px;
+}
+
+.solid-line.gray {
+  background-color: gray;
+}
+
+.solid-line.green {
+  background-color: green;
+}
+
+/* Floor Abbrevaition - to align the hyphen */
+.abbreviations {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .abbr-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .abbr-code {
+    width: 40px; /* Align all codes */
+    font-weight: bold;
+  }
+  
+  .abbr-dash {
+    width: 20px;
+    text-align: center;
+  }
+  
 /* Feedback */
 .feedback {
-    text-align: center;
     padding: 2 rem;
+    border: 2px solid #ccc;        /* Light gray border */
+    border-radius: 15px;           /* Rounded corners */
+    padding: 5px;                 /* Space inside the box */
+    background-color: #f9f9f9;     /* Optional: light background */
+    max-width: 500px;              /* Optional: limits the width */
+    height: 50px auto;
+    margin: 10px auto;             /* Centers the box */
+    text-align: center;           /* center the content */
 }
+
 
 /* Footer */
 footer {
