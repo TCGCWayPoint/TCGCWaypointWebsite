@@ -246,82 +246,83 @@ button:focus {
 }
 
 .legend-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 0.5rem;
-  }
+    display: flex; /* Horizontal layout for icon and text */
+    align-items: center; /* Vertically center content */
+    margin-bottom: 0.5rem; /* Space between items */
+}
   
- .legend-item img {
-    width: 24px;
-    height: 24px;
-    margin-right: 0.5rem;
-  }
+.legend-item img {
+    width: 24px; /* Set icon width */
+    height: 24px; /* Set icon height */
+    margin-right: 0.5rem; /* Space between icon and text */
+}
   
- .legend-item h4 {
-    margin: 0;
-    font-size: 1rem;
-  }
+.legend-item h4 {
+    margin: 0; /* Remove default margin */
+    font-size: 1rem; /* Set font size */
+}
 
- .legend h3 {
-    text-align: left;
-    margin-bottom: 0px;
+.legend h3 {
+    text-align: left; /* Align heading text to the left */
+    margin-bottom: 0px; /* Remove space below heading */
 }
 
 /* Legend line next to text (solid lines) */
 .line-legend {
-  display: flex;
-  align-items: center;
-  margin-bottom: 0.5rem;
-  font-size: 1rem;
+    display: flex; /* Horizontal layout for line and label */
+    align-items: center; /* Vertically center content */
+    margin-bottom: 0.5rem; /* Space between items */
+    font-size: 1rem; /* Set font size */
 }
 
 .solid-line {
-  width: 40px;
-  height: 8px;
-  margin-right: 0.5rem;
-  border-radius: 2px;
+    width: 40px; /* Set line length */
+    height: 8px; /* Set line thickness */
+    margin-right: 0.5rem; /* Space between line and text */
+    border-radius: 2px; /* Rounded line corners */
 }
 
 .solid-line.gray {
-  background-color: gray;
+    background-color: gray; /* Gray line color */
 }
 
 .solid-line.green {
-  background-color: green;
+    background-color: green; /* Green line color */
 }
 
-/* Floor Abbrevaition - to align the hyphen */
+/* Floor Abbreviation - to align the hyphen */
 .abbreviations {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    font-family: Arial, sans-serif;
-  }
+    display: flex; /* Container uses flex layout */
+    flex-direction: column; /* Stack items vertically */
+    gap: 4px; /* Space between items */
+    font-family: Arial, sans-serif; /* Set font */
+}
   
-  .abbr-item {
-    display: flex;
-    align-items: center;
-  }
+.abbr-item {
+    display: flex; /* Horizontal layout for abbreviation parts */
+    align-items: center; /* Vertically align items */
+}
   
-  .abbr-code {
-    width: 40px; /* Align all codes */
-    font-weight: bold;
-  }
+.abbr-code {
+    width: 40px; /* Align all codes with fixed width */
+    font-weight: bold; /* Make abbreviation bold */
+}
   
-  .abbr-dash {
-    width: 20px;
-    text-align: center;
-  }
+.abbr-dash {
+    width: 20px; /* Reserve space for dash */
+    text-align: center; /* Center the dash */
+}
+
   
 /* Feedback */
 .feedback {
-    padding: 2 rem;
+    padding: 2rem; /* Add spacing inside the element (based on root font size) */
     border: 2px solid #ccc;        /* Light gray border */
     border-radius: 15px;           /* Rounded corners */
     padding: 5px;                 /* Space inside the box */
     background-color: #f9f9f9;     /* Optional: light background */
     max-width: 500px;              /* Optional: limits the width */
-    height: 50px auto;
+    height: auto; /* Adjust height based on content */
     margin: 10px auto;             /* Centers the box */
     text-align: center;           /* center the content */
 }
@@ -332,22 +333,21 @@ footer {
     background-color: #000000; /* Black background */
     color: white; /* White text */
     text-align: center; /* Centers text */
-    padding: 20px; /* Internal padding */
-    height: 10%;
+    padding: 0px; /* Internal padding */
 }
 
 .footer-content {
     display: flex; /* Flexbox layout */
     flex-direction: column; /* Stacks items vertically */
     align-items: center; /* Centers items horizontally */
-    gap: 20px; /* Space between logo and text containers */
+    gap: 10px; /* Space between logo and text containers */
 }
 
 .logo-container {
     display: flex; /* Flexbox layout for logos */
     flex-wrap: wrap; /* Allows wrapping on small screens */
     justify-content: center; /* Centers logos horizontally */
-    gap: 20px; /* Space between logos */
+    gap: 10px; /* Space between logos */
 }
 
 .footer-content img {
@@ -366,9 +366,10 @@ footer {
 
 .footer-content p {
     font-weight: bold; /* Bold text by default */
-    font-size: clamp(1rem, 1.2vw, 1.2rem);
+    font-size: clamp(1rem, 1.2vw, 1.2rem); /* Responsive font size: min 1rem, scales with viewport, max 1.2rem */
     margin: 0; /* Removes default margins */
 }
+
 
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {

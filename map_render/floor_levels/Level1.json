@@ -2460,11 +2460,11 @@
   },
   {
     "type": "Feature",
-    "id": "way/-3270",
+    "id": "way/-5342",
     "properties": {
       "indoor": "room",
       "level": "1",
-      "id": "way/-3270"
+      "id": "way/-5342"
     },
     "geometry": {
       "type": "Polygon",
@@ -2496,11 +2496,11 @@
   },
   {
     "type": "Feature",
-    "id": "way/-3271",
+    "id": "way/-5343",
     "properties": {
       "amenity": "toilets",
       "level": "1",
-      "id": "way/-3271"
+      "id": "way/-5343"
     },
     "geometry": {
       "type": "Polygon",
@@ -2532,11 +2532,11 @@
   },
   {
     "type": "Feature",
-    "id": "way/-3325",
+    "id": "way/-5344",
     "properties": {
       "indoor": "room",
       "level": "1",
-      "id": "way/-3325"
+      "id": "way/-5344"
     },
     "geometry": {
       "type": "Polygon",
@@ -2572,11 +2572,11 @@
   },
   {
     "type": "Feature",
-    "id": "way/-3525",
+    "id": "way/-5346",
     "properties": {
       "indoor": "room",
       "level": "1",
-      "id": "way/-3525"
+      "id": "way/-5346"
     },
     "geometry": {
       "type": "Polygon",
@@ -2608,11 +2608,11 @@
   },
   {
     "type": "Feature",
-    "id": "way/-3672",
+    "id": "way/-5347",
     "properties": {
       "indoor": "room",
       "level": "1",
-      "id": "way/-3672"
+      "id": "way/-5347"
     },
     "geometry": {
       "type": "Polygon",
@@ -2644,11 +2644,11 @@
   },
   {
     "type": "Feature",
-    "id": "way/-3675",
+    "id": "way/-5348",
     "properties": {
       "indoor": "room",
       "level": "1",
-      "id": "way/-3675"
+      "id": "way/-5348"
     },
     "geometry": {
       "type": "Polygon",
@@ -2680,11 +2680,11 @@
   },
   {
     "type": "Feature",
-    "id": "way/-3724",
+    "id": "way/-5349",
     "properties": {
       "indoor": "room",
       "level": "1",
-      "id": "way/-3724"
+      "id": "way/-5349"
     },
     "geometry": {
       "type": "Polygon",
@@ -2716,11 +2716,11 @@
   },
   {
     "type": "Feature",
-    "id": "way/-3855",
+    "id": "way/-5350",
     "properties": {
       "indoor": "room",
       "level": "1",
-      "id": "way/-3855"
+      "id": "way/-5350"
     },
     "geometry": {
       "type": "Polygon",
@@ -2752,11 +2752,11 @@
   },
   {
     "type": "Feature",
-    "id": "way/-3960",
+    "id": "way/-5351",
     "properties": {
       "indoor": "room",
       "level": "1",
-      "id": "way/-3960"
+      "id": "way/-5351"
     },
     "geometry": {
       "type": "Polygon",
@@ -2788,11 +2788,11 @@
   },
   {
     "type": "Feature",
-    "id": "way/-3997",
+    "id": "way/-5352",
     "properties": {
       "amenity": "Bench",
       "level": "1",
-      "id": "way/-3997"
+      "id": "way/-5352"
     },
     "geometry": {
       "type": "Polygon",
@@ -2824,11 +2824,11 @@
   },
   {
     "type": "Feature",
-    "id": "way/-4070",
+    "id": "way/-5353",
     "properties": {
       "amenity": "Main Stage",
       "level": "1",
-      "id": "way/-4070"
+      "id": "way/-5353"
     },
     "geometry": {
       "type": "Polygon",
@@ -2860,11 +2860,11 @@
   },
   {
     "type": "Feature",
-    "id": "way/-4164",
+    "id": "way/-5354",
     "properties": {
       "amenity": "Bench",
       "level": "1",
-      "id": "way/-4164"
+      "id": "way/-5354"
     },
     "geometry": {
       "type": "Polygon",
@@ -2896,11 +2896,11 @@
   },
   {
     "type": "Feature",
-    "id": "way/-4176",
+    "id": "way/-5355",
     "properties": {
       "amenity": "bench",
       "level": "1",
-      "id": "way/-4176"
+      "id": "way/-5355"
     },
     "geometry": {
       "type": "Polygon",
@@ -2932,11 +2932,11 @@
   },
   {
     "type": "Feature",
-    "id": "way/-4210",
+    "id": "way/-5356",
     "properties": {
       "amenity": "bench",
       "level": "1",
-      "id": "way/-4210"
+      "id": "way/-5356"
     },
     "geometry": {
       "type": "Polygon",
@@ -7430,11 +7430,11 @@
   },
   {
     "type": "Feature",
-    "id": "way/-3265",
+    "id": "way/-5337",
     "properties": {
       "indoor": "corridor",
       "level": "1",
-      "id": "way/-3265"
+      "id": "way/-5337"
     },
     "geometry": {
       "type": "LineString",
@@ -7450,6 +7450,10 @@
         [
           123.75588477849,
           8.06457104113
+        ],
+        [
+          123.75589836337,
+          8.06455520042
         ],
         [
           123.75595700947,
@@ -7496,11 +7500,11 @@
   },
   {
     "type": "Feature",
-    "id": "way/-3266",
+    "id": "way/-5338",
     "properties": {
       "highway": "steps",
       "level": "1",
-      "id": "way/-3266"
+      "id": "way/-5338"
     },
     "geometry": {
       "type": "LineString",
@@ -7530,11 +7534,11 @@
   },
   {
     "type": "Feature",
-    "id": "way/-3267",
+    "id": "way/-5339",
     "properties": {
       "highway": "steps",
       "level": "1",
-      "id": "way/-3267"
+      "id": "way/-5339"
     },
     "geometry": {
       "type": "LineString",
@@ -7564,10 +7568,10 @@
   },
   {
     "type": "Feature",
-    "id": "way/-3268",
+    "id": "way/-5340",
     "properties": {
       "highway": "footway",
-      "id": "way/-3268"
+      "id": "way/-5340"
     },
     "geometry": {
       "type": "LineString",
@@ -7585,11 +7589,11 @@
   },
   {
     "type": "Feature",
-    "id": "way/-3269",
+    "id": "way/-5341",
     "properties": {
       "indoor": "corridor",
       "level": "0",
-      "id": "way/-3269"
+      "id": "way/-5341"
     },
     "geometry": {
       "type": "LineString",
@@ -7615,11 +7619,11 @@
   },
   {
     "type": "Feature",
-    "id": "way/-3331",
+    "id": "way/-5345",
     "properties": {
       "indoor": "corridor",
       "level": "1",
-      "id": "way/-3331"
+      "id": "way/-5345"
     },
     "geometry": {
       "type": "LineString",
@@ -7637,11 +7641,11 @@
   },
   {
     "type": "Feature",
-    "id": "way/-4386",
+    "id": "way/-5357",
     "properties": {
       "highway": "steps",
       "level": "1",
-      "id": "way/-4386"
+      "id": "way/-5357"
     },
     "geometry": {
       "type": "LineString",
@@ -7671,11 +7675,11 @@
   },
   {
     "type": "Feature",
-    "id": "way/-4416",
+    "id": "way/-5358",
     "properties": {
       "highway": "steps",
       "level": "1",
-      "id": "way/-4416"
+      "id": "way/-5358"
     },
     "geometry": {
       "type": "LineString",
@@ -7705,11 +7709,11 @@
   },
   {
     "type": "Feature",
-    "id": "way/-4427",
+    "id": "way/-5359",
     "properties": {
       "highway": "steps",
       "level": "1",
-      "id": "way/-4427"
+      "id": "way/-5359"
     },
     "geometry": {
       "type": "LineString",
@@ -7739,11 +7743,11 @@
   },
   {
     "type": "Feature",
-    "id": "way/-4435",
+    "id": "way/-5360",
     "properties": {
       "highway": "steps",
       "level": "1",
-      "id": "way/-4435"
+      "id": "way/-5360"
     },
     "geometry": {
       "type": "LineString",
@@ -7773,11 +7777,11 @@
   },
   {
     "type": "Feature",
-    "id": "way/-4445",
+    "id": "way/-5361",
     "properties": {
       "highway": "steps",
       "level": "1",
-      "id": "way/-4445"
+      "id": "way/-5361"
     },
     "geometry": {
       "type": "LineString",
@@ -7807,11 +7811,11 @@
   },
   {
     "type": "Feature",
-    "id": "way/-4446",
+    "id": "way/-5362",
     "properties": {
       "highway": "steps",
       "level": "1",
-      "id": "way/-4446"
+      "id": "way/-5362"
     },
     "geometry": {
       "type": "LineString",
@@ -7841,11 +7845,11 @@
   },
   {
     "type": "Feature",
-    "id": "way/-5306",
+    "id": "way/-5363",
     "properties": {
       "indoor": "corridor",
       "level": "1",
-      "id": "way/-5306"
+      "id": "way/-5363"
     },
     "geometry": {
       "type": "LineString",
@@ -12695,6 +12699,10 @@
           8.06458442515
         ],
         [
+          123.75589836337,
+          8.06455520042
+        ],
+        [
           123.75587326314,
           8.06453461685
         ],
@@ -13286,11 +13294,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35388",
+    "id": "node/-38089",
     "properties": {
       "level": "1",
       "name": "Office of the President",
-      "id": "node/-35388"
+      "id": "node/-38089"
     },
     "geometry": {
       "type": "Point",
@@ -13302,11 +13310,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35389",
+    "id": "node/-38090",
     "properties": {
       "level": "1",
       "name": "Quality Management Office",
-      "id": "node/-35389"
+      "id": "node/-38090"
     },
     "geometry": {
       "type": "Point",
@@ -13318,11 +13326,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35390",
+    "id": "node/-38091",
     "properties": {
       "level": "1",
       "name": "Accreditation Room",
-      "id": "node/-35390"
+      "id": "node/-38091"
     },
     "geometry": {
       "type": "Point",
@@ -13334,11 +13342,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35391",
+    "id": "node/-38092",
     "properties": {
       "level": "1",
       "name": "Elevator",
-      "id": "node/-35391"
+      "id": "node/-38092"
     },
     "geometry": {
       "type": "Point",
@@ -13350,12 +13358,12 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35392",
+    "id": "node/-38093",
     "properties": {
       "highway": "steps",
       "level": "0;1;2",
       "name": "Stairs (To Main Lobby/3rd Floor)",
-      "id": "node/-35392"
+      "id": "node/-38093"
     },
     "geometry": {
       "type": "Point",
@@ -13367,11 +13375,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35393",
+    "id": "node/-38094",
     "properties": {
       "level": "1",
       "name": "MB 208",
-      "id": "node/-35393"
+      "id": "node/-38094"
     },
     "geometry": {
       "type": "Point",
@@ -13383,11 +13391,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35394",
+    "id": "node/-38095",
     "properties": {
       "level": "1",
       "name": "Business Center/MB 206",
-      "id": "node/-35394"
+      "id": "node/-38095"
     },
     "geometry": {
       "type": "Point",
@@ -13399,11 +13407,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35395",
+    "id": "node/-38096",
     "properties": {
       "level": "1",
       "name": "MOOT Court/MB 204",
-      "id": "node/-35395"
+      "id": "node/-38096"
     },
     "geometry": {
       "type": "Point",
@@ -13415,12 +13423,12 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35396",
+    "id": "node/-38097",
     "properties": {
       "highway": "steps",
       "level": "0;1;2",
       "name": "Stairs to 1st/3rd Floor (Right Wing)",
-      "id": "node/-35396"
+      "id": "node/-38097"
     },
     "geometry": {
       "type": "Point",
@@ -13432,11 +13440,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35397",
+    "id": "node/-38098",
     "properties": {
       "level": "1",
       "name": "Guidance Center",
-      "id": "node/-35397"
+      "id": "node/-38098"
     },
     "geometry": {
       "type": "Point",
@@ -13448,10 +13456,10 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35398",
+    "id": "node/-38099",
     "properties": {
       "name": "Annex Building",
-      "id": "node/-35398"
+      "id": "node/-38099"
     },
     "geometry": {
       "type": "Point",
@@ -13463,10 +13471,10 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35399",
+    "id": "node/-38100",
     "properties": {
       "name": "Oval/Track",
-      "id": "node/-35399"
+      "id": "node/-38100"
     },
     "geometry": {
       "type": "Point",
@@ -13478,11 +13486,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35400",
+    "id": "node/-38101",
     "properties": {
       "level": "1",
       "name": "Computer Laboratory/MB 205",
-      "id": "node/-35400"
+      "id": "node/-38101"
     },
     "geometry": {
       "type": "Point",
@@ -13494,11 +13502,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35401",
+    "id": "node/-38102",
     "properties": {
       "level": "1",
       "name": "Computer Room/MB 207",
-      "id": "node/-35401"
+      "id": "node/-38102"
     },
     "geometry": {
       "type": "Point",
@@ -13510,11 +13518,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35402",
+    "id": "node/-38103",
     "properties": {
       "level": "1",
       "name": "Computer Room/MB 209",
-      "id": "node/-35402"
+      "id": "node/-38103"
     },
     "geometry": {
       "type": "Point",
@@ -13526,11 +13534,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35403",
+    "id": "node/-38104",
     "properties": {
       "level": "1",
       "name": "Technician Office",
-      "id": "node/-35403"
+      "id": "node/-38104"
     },
     "geometry": {
       "type": "Point",
@@ -13542,11 +13550,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35404",
+    "id": "node/-38105",
     "properties": {
       "level": "1",
       "name": "Comfort Room/Toilet (Male/Female) (Right Wing)",
-      "id": "node/-35404"
+      "id": "node/-38105"
     },
     "geometry": {
       "type": "Point",
@@ -13558,11 +13566,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35405",
+    "id": "node/-38106",
     "properties": {
       "level": "1",
       "name": "Board Room",
-      "id": "node/-35405"
+      "id": "node/-38106"
     },
     "geometry": {
       "type": "Point",
@@ -13574,11 +13582,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35406",
+    "id": "node/-38107",
     "properties": {
       "level": "1",
       "name": "VIP Lounge",
-      "id": "node/-35406"
+      "id": "node/-38107"
     },
     "geometry": {
       "type": "Point",
@@ -13590,11 +13598,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35407",
+    "id": "node/-38108",
     "properties": {
       "level": "1",
       "name": "Human Resource Management Office",
-      "id": "node/-35407"
+      "id": "node/-38108"
     },
     "geometry": {
       "type": "Point",
@@ -13606,11 +13614,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35408",
+    "id": "node/-38109",
     "properties": {
       "level": "1",
       "name": "Comfort Room/Toilet (Male/Female) (Left Wing)",
-      "id": "node/-35408"
+      "id": "node/-38109"
     },
     "geometry": {
       "type": "Point",
@@ -13622,11 +13630,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35409",
+    "id": "node/-38110",
     "properties": {
       "level": "1",
       "name": "Faculty and Staff Lounge/MB 222A",
-      "id": "node/-35409"
+      "id": "node/-38110"
     },
     "geometry": {
       "type": "Point",
@@ -13638,11 +13646,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35410",
+    "id": "node/-38111",
     "properties": {
       "level": "1",
       "name": "Scholarship and Welfare Office",
-      "id": "node/-35410"
+      "id": "node/-38111"
     },
     "geometry": {
       "type": "Point",
@@ -13654,11 +13662,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35411",
+    "id": "node/-38112",
     "properties": {
       "level": "1",
       "name": "Faculty Room",
-      "id": "node/-35411"
+      "id": "node/-38112"
     },
     "geometry": {
       "type": "Point",
@@ -13670,11 +13678,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35412",
+    "id": "node/-38113",
     "properties": {
       "level": "1",
       "name": "Speech Laboratory/Multimedia",
-      "id": "node/-35412"
+      "id": "node/-38113"
     },
     "geometry": {
       "type": "Point",
@@ -13686,11 +13694,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35413",
+    "id": "node/-38114",
     "properties": {
       "level": "1",
       "name": "Executive Vice President Office/MB 225",
-      "id": "node/-35413"
+      "id": "node/-38114"
     },
     "geometry": {
       "type": "Point",
@@ -13702,12 +13710,12 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35414",
+    "id": "node/-38115",
     "properties": {
       "highway": "steps",
       "level": "0;1;2",
       "name": "Stairs to 1st/2nd Floor (Left Wing)",
-      "id": "node/-35414"
+      "id": "node/-38115"
     },
     "geometry": {
       "type": "Point",
@@ -13719,11 +13727,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35415",
+    "id": "node/-38116",
     "properties": {
       "level": "1",
       "name": "BSEED Simulation Room / MB 224",
-      "id": "node/-35415"
+      "id": "node/-38116"
     },
     "geometry": {
       "type": "Point",
@@ -13735,11 +13743,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35416",
+    "id": "node/-38117",
     "properties": {
       "level": "1",
       "name": "BSEED Simulation Room/MB 228",
-      "id": "node/-35416"
+      "id": "node/-38117"
     },
     "geometry": {
       "type": "Point",
@@ -13751,10 +13759,10 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35417",
+    "id": "node/-38118",
     "properties": {
       "name": "Covered Court / Basketball Court",
-      "id": "node/-35417"
+      "id": "node/-38118"
     },
     "geometry": {
       "type": "Point",
@@ -13766,10 +13774,10 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35418",
+    "id": "node/-38119",
     "properties": {
       "name": "Covered Court / Volleyball Court",
-      "id": "node/-35418"
+      "id": "node/-38119"
     },
     "geometry": {
       "type": "Point",
@@ -13781,10 +13789,10 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35419",
+    "id": "node/-38120",
     "properties": {
       "name": "Swimming Pool",
-      "id": "node/-35419"
+      "id": "node/-38120"
     },
     "geometry": {
       "type": "Point",
@@ -13796,10 +13804,10 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35420",
+    "id": "node/-38121",
     "properties": {
       "name": "Race Track Bench",
-      "id": "node/-35420"
+      "id": "node/-38121"
     },
     "geometry": {
       "type": "Point",
@@ -13811,10 +13819,10 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35421",
+    "id": "node/-38122",
     "properties": {
       "name": "Senior High School",
-      "id": "node/-35421"
+      "id": "node/-38122"
     },
     "geometry": {
       "type": "Point",
@@ -13826,10 +13834,10 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35442",
+    "id": "node/-38143",
     "properties": {
       "name": "Main Exit",
-      "id": "node/-35442"
+      "id": "node/-38143"
     },
     "geometry": {
       "type": "Point",
@@ -13841,10 +13849,10 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35443",
+    "id": "node/-38144",
     "properties": {
       "name": "Main Entrance",
-      "id": "node/-35443"
+      "id": "node/-38144"
     },
     "geometry": {
       "type": "Point",
@@ -13856,10 +13864,10 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35444",
+    "id": "node/-38145",
     "properties": {
       "name": "Student Entrance",
-      "id": "node/-35444"
+      "id": "node/-38145"
     },
     "geometry": {
       "type": "Point",
@@ -13871,11 +13879,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35490",
+    "id": "node/-38170",
     "properties": {
       "level": "1",
       "name": "Infrastracture Monitoring/Special Event Office",
-      "id": "node/-35490"
+      "id": "node/-38170"
     },
     "geometry": {
       "type": "Point",
@@ -13887,11 +13895,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35547",
+    "id": "node/-38178",
     "properties": {
       "level": "1",
       "name": "Server Room",
-      "id": "node/-35547"
+      "id": "node/-38178"
     },
     "geometry": {
       "type": "Point",
@@ -13903,11 +13911,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35688",
+    "id": "node/-38182",
     "properties": {
       "level": "1",
       "name": "Printing and Reproduction Office",
-      "id": "node/-35688"
+      "id": "node/-38182"
     },
     "geometry": {
       "type": "Point",
@@ -13919,11 +13927,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35934",
+    "id": "node/-38191",
     "properties": {
       "level": "1",
       "name": "MB 210",
-      "id": "node/-35934"
+      "id": "node/-38191"
     },
     "geometry": {
       "type": "Point",
@@ -13935,11 +13943,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35935",
+    "id": "node/-38192",
     "properties": {
       "level": "1",
       "name": "MB 212",
-      "id": "node/-35935"
+      "id": "node/-38192"
     },
     "geometry": {
       "type": "Point",
@@ -13951,11 +13959,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-35936",
+    "id": "node/-38193",
     "properties": {
       "level": "1",
       "name": "MB 214",
-      "id": "node/-35936"
+      "id": "node/-38193"
     },
     "geometry": {
       "type": "Point",
@@ -13967,11 +13975,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-36022",
+    "id": "node/-38198",
     "properties": {
       "level": "1",
       "name": "Visitor's Lounge",
-      "id": "node/-36022"
+      "id": "node/-38198"
     },
     "geometry": {
       "type": "Point",
@@ -13983,11 +13991,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-36291",
+    "id": "node/-38207",
     "properties": {
       "level": "1",
       "name": "Supply and Property Management",
-      "id": "node/-36291"
+      "id": "node/-38207"
     },
     "geometry": {
       "type": "Point",
@@ -13999,11 +14007,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-36345",
+    "id": "node/-38208",
     "properties": {
       "level": "1",
       "name": "Sports Office/MB 224B",
-      "id": "node/-36345"
+      "id": "node/-38208"
     },
     "geometry": {
       "type": "Point",
@@ -14015,11 +14023,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-36435",
+    "id": "node/-38210",
     "properties": {
       "level": "1",
       "name": "Bleacher (Most Left Wing, Second Floor)",
-      "id": "node/-36435"
+      "id": "node/-38210"
     },
     "geometry": {
       "type": "Point",
@@ -14031,11 +14039,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-36464",
+    "id": "node/-38215",
     "properties": {
       "level": "1",
       "name": "Main Stage",
-      "id": "node/-36464"
+      "id": "node/-38215"
     },
     "geometry": {
       "type": "Point",
@@ -14047,11 +14055,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-36516",
+    "id": "node/-38228",
     "properties": {
       "level": "1",
       "name": "Bleacher (Most Right Wing, Second Floor)",
-      "id": "node/-36516"
+      "id": "node/-38228"
     },
     "geometry": {
       "type": "Point",
@@ -14063,11 +14071,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-36558",
+    "id": "node/-38233",
     "properties": {
       "level": "1",
       "name": "Bleacher (Right Wing Second Floor)",
-      "id": "node/-36558"
+      "id": "node/-38233"
     },
     "geometry": {
       "type": "Point",
@@ -14079,11 +14087,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-36620",
+    "id": "node/-38238",
     "properties": {
       "level": "1",
       "name": "Bleacher (Left Wing Second Floor)",
-      "id": "node/-36620"
+      "id": "node/-38238"
     },
     "geometry": {
       "type": "Point",
@@ -14095,11 +14103,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-36922",
+    "id": "node/-38255",
     "properties": {
       "level": "1",
       "name": "Bench Stairs to Ground (Left Wing)",
-      "id": "node/-36922"
+      "id": "node/-38255"
     },
     "geometry": {
       "type": "Point",
@@ -14111,11 +14119,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-36951",
+    "id": "node/-38256",
     "properties": {
       "level": "1",
       "name": "Bench Stairs to Ground (Left Wing)",
-      "id": "node/-36951"
+      "id": "node/-38256"
     },
     "geometry": {
       "type": "Point",
@@ -14127,11 +14135,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-36953",
+    "id": "node/-38257",
     "properties": {
       "level": "1",
       "name": "Bench Stairs to Ground (Left Wing)",
-      "id": "node/-36953"
+      "id": "node/-38257"
     },
     "geometry": {
       "type": "Point",
@@ -14143,11 +14151,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-36954",
+    "id": "node/-38258",
     "properties": {
       "level": "1",
       "name": "Bench Stairs to Ground (Right Wing)",
-      "id": "node/-36954"
+      "id": "node/-38258"
     },
     "geometry": {
       "type": "Point",
@@ -14159,11 +14167,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-36971",
+    "id": "node/-38259",
     "properties": {
       "level": "1",
       "name": "Bench Stairs to Ground (Right Wing)",
-      "id": "node/-36971"
+      "id": "node/-38259"
     },
     "geometry": {
       "type": "Point",
@@ -14175,11 +14183,11 @@
   },
   {
     "type": "Feature",
-    "id": "node/-36972",
+    "id": "node/-38260",
     "properties": {
       "level": "1",
       "name": "Bench Stairs to Ground (Right Wing)",
-      "id": "node/-36972"
+      "id": "node/-38260"
     },
     "geometry": {
       "type": "Point",
