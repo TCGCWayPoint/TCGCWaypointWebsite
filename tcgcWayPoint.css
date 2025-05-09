@@ -273,10 +273,11 @@ button:focus {
     align-items: center; /* Vertically center content */
     margin-bottom: 0.5rem; /* Space between items */
     font-size: 1rem; /* Set font size */
+    flex-shrink: 0;
 }
 
 .solid-line {
-    width: 25px; /* Set line length */
+    width: 20px; /* Set line length */
     height: 8px; /* Set line thickness */
     margin-right: 0.5rem; /* Space between line and text */
     border-radius: 2px; /* Rounded line corners */
@@ -304,7 +305,7 @@ button:focus {
 }
   
 .abbr-code {
-    width: 40px; /* Align all codes with fixed width */
+    width: 25px; /* Align all codes with fixed width */
     font-weight: bold; /* Make abbreviation bold */
 }
   
@@ -316,7 +317,6 @@ button:focus {
   
 /* Feedback */
 .feedback {
-    padding: 2rem; /* Add spacing inside the element (based on root font size) */
     border: 2px solid #ccc;        /* Light gray border */
     border-radius: 15px;           /* Rounded corners */
     padding: 5px;                 /* Space inside the box */
