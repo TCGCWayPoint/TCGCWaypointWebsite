@@ -276,7 +276,7 @@ button:focus {
 }
 
 .solid-line {
-    width: 40px; /* Set line length */
+    width: 30px; /* Set line length */
     height: 8px; /* Set line thickness */
     margin-right: 0.5rem; /* Space between line and text */
     border-radius: 2px; /* Rounded line corners */
