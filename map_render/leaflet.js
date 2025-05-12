@@ -1054,7 +1054,64 @@ const findPath = (graph, start, end) => {
   return null;
 };
 
-const handleGetDirections = () => {
+const handleGetDirections = async () => {
+  // if (!state.startFeature || !state.destinationFeature) {
+  //   showMessage("Please select both a starting point and a destination");
+  //   return;
+  // }
+
+  // if (state.customRoute) {
+  //   state.map.removeLayer(state.customRoute);
+  //   state.customRoute = null;
+  // }
+
+  // const getFeaturePoint = (feature) => {
+  //   let latlng, floor;
+  //   if (feature.geometry.type === 'Point') {
+  //     latlng = L.latLng(feature.geometry.coordinates[1], feature.geometry.coordinates[0]);
+  //     floor = feature.properties?.level ? feature.properties.level.split(';')[0] || state.currentFloor : state.currentFloor;
+  //   } else if (feature.geometry.type === 'LineString') {
+  //     const coords = feature.geometry.coordinates;
+  //     const midIndex = Math.floor(coords.length / 2);
+  //     latlng = L.latLng(coords[midIndex][1], coords[midIndex][0]);
+  //     floor = feature.properties?.level ? feature.properties.level.split(';')[0] || state.currentFloor : state.currentFloor;
+  //   } else if (feature.geometry.type === 'Polygon') {
+  //     const coords = feature.geometry.coordinates[0];
+  //     const midIndex = Math.floor(coords.length / 2);
+  //     latlng = L.latLng(coords[midIndex][1], coords[midIndex][0]);
+  //     floor = feature.properties?.level ? feature.properties.level.split(';')[0] || state.currentFloor : state.currentFloor;
+  //   }
+  //   console.log(`Feature point for ${feature.properties?.name || feature.properties?.room}:`, { latlng, floor });
+  //   return { latlng, floor };
+  // };
+
+  // const start = getFeaturePoint(state.startFeature);
+  // const end = getFeaturePoint(state.destinationFeature);
+
+  // if (!start.latlng || !end.latlng) {
+  //   showMessage("Could not determine start or destination point");
+  //   return;
+  // }
+
+  // if (start.floor === end.floor) {
+  //   console.log('Start and destination on same floor:', start.floor);
+  // } else {
+  //   console.log(`Routing from floor ${start.floor} to floor ${end.floor}`);
+  // }
+
+  // const allFeatures = Object.values(state.floorData).flat();
+  // const startNearest = findNearestPoint(start.latlng, allFeatures, start.floor);
+  // const endNearest = findNearestPoint(end.latlng, allFeatures, end.floor);
+
+  // if (!startNearest || !endNearest) {
+  //   showMessage("Could not find pathway or stairs between points");
+  //   console.log('No nearest points found:', { startNearest, endNearest });
+  //   return;
+  // }
+
+  // const startNode = `${startNearest.latlng.toString()}_${startNearest.floor}`;
+  // const endNode = `${endNearest.latlng.toString()}_${endNearest.floor}`;
+
   if (!state.startFeature || !state.destinationFeature) {
     showMessage("Please select both a starting point and a destination");
     return;
@@ -1069,19 +1126,18 @@ const handleGetDirections = () => {
     let latlng, floor;
     if (feature.geometry.type === 'Point') {
       latlng = L.latLng(feature.geometry.coordinates[1], feature.geometry.coordinates[0]);
-      floor = feature.properties?.level ? feature.properties.level.split(';')[0] || state.currentFloor : state.currentFloor;
+      floor = feature.properties?.level ? feature.properties.level.split(';')[0] : '0';
     } else if (feature.geometry.type === 'LineString') {
       const coords = feature.geometry.coordinates;
       const midIndex = Math.floor(coords.length / 2);
       latlng = L.latLng(coords[midIndex][1], coords[midIndex][0]);
-      floor = feature.properties?.level ? feature.properties.level.split(';')[0] || state.currentFloor : state.currentFloor;
+      floor = feature.properties?.level ? feature.properties.level.split(';')[0] : '0';
     } else if (feature.geometry.type === 'Polygon') {
       const coords = feature.geometry.coordinates[0];
       const midIndex = Math.floor(coords.length / 2);
       latlng = L.latLng(coords[midIndex][1], coords[midIndex][0]);
-      floor = feature.properties?.level ? feature.properties.level.split(';')[0] || state.currentFloor : state.currentFloor;
+      floor = feature.properties?.level ? feature.properties.level.split(';')[0] : '0';
     }
-    console.log(`Feature point for ${feature.properties?.name || feature.properties?.room}:`, { latlng, floor });
     return { latlng, floor };
   };
 
@@ -1093,10 +1149,9 @@ const handleGetDirections = () => {
     return;
   }
 
-  if (start.floor === end.floor) {
-    console.log('Start and destination on same floor:', start.floor);
-  } else {
-    console.log(`Routing from floor ${start.floor} to floor ${end.floor}`);
+  // Load starting floor data if different from current floor
+  if (start.floor !== state.currentFloor) {
+    await loadCampusData(start.floor, true);
   }
 
   const allFeatures = Object.values(state.floorData).flat();
@@ -1105,7 +1160,6 @@ const handleGetDirections = () => {
 
   if (!startNearest || !endNearest) {
     showMessage("Could not find pathway or stairs between points");
-    console.log('No nearest points found:', { startNearest, endNearest });
     return;
   }
 
