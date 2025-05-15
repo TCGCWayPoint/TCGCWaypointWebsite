@@ -2460,11 +2460,11 @@
 },
 {
   "type": "Feature",
-  "id": "way/-5364",
+  "id": "way/-5407",
   "properties": {
     "amenity": "toilets",
     "male": "yes",
-    "id": "way/-5364"
+    "id": "way/-5407"
   },
   "geometry": {
     "type": "Polygon",
@@ -3153,28 +3153,28 @@
           8.06482708352
         ],
         [
-          123.75693305999,
-          8.06473965192
+          123.75686466366,
+          8.06467724337
         ],
         [
-          123.75680324666,
-          8.06462670989
+          123.75675899021,
+          8.06458687464
         ],
         [
-          123.75676441218,
-          8.06459029247
+          123.75647875692,
+          8.06434464167
         ],
         [
-          123.75661790009,
-          8.06446300977
+          123.75643953319,
+          8.06431163574
         ],
         [
           123.75649752172,
           8.06435843077
         ],
         [
-          123.75646086676,
-          8.06432945512
+          123.75639649374,
+          8.06427368572
         ],
         [
           123.7563511,
@@ -4855,7 +4855,6 @@
     "uid": "6591426",
     "amenity": "place_of_worship",
     "denomination": "protestant",
-    "name": "United Church of Christ in the Philippines",
     "previously": "n4582191098",
     "religion": "christian",
     "short_name": "UCCP",
@@ -6604,11 +6603,11 @@
 },
 {
   "type": "Feature",
-  "id": "way/-5365",
+  "id": "way/-5408",
   "properties": {
     "indoor": "corridor",
     "level": "0",
-    "id": "way/-5365"
+    "id": "way/-5408"
   },
   "geometry": {
     "type": "LineString",
@@ -6630,11 +6629,11 @@
 },
 {
   "type": "Feature",
-  "id": "way/-5366",
+  "id": "way/-5409",
   "properties": {
     "indoor": "corridor",
     "level": "0",
-    "id": "way/-5366"
+    "id": "way/-5409"
   },
   "geometry": {
     "type": "LineString",
@@ -6652,11 +6651,11 @@
 },
 {
   "type": "Feature",
-  "id": "way/-5367",
+  "id": "way/-5410",
   "properties": {
     "indoor": "corridor",
     "level": "0",
-    "id": "way/-5367"
+    "id": "way/-5410"
   },
   "geometry": {
     "type": "LineString",
@@ -6678,10 +6677,10 @@
 },
 {
   "type": "Feature",
-  "id": "way/-5369",
+  "id": "way/-5411",
   "properties": {
     "highway": "steps",
-    "id": "way/-5369"
+    "id": "way/-5411"
   },
   "geometry": {
     "type": "LineString",
@@ -6711,10 +6710,10 @@
 },
 {
   "type": "Feature",
-  "id": "way/-5370",
+  "id": "way/-5412",
   "properties": {
     "highway": "steps",
-    "id": "way/-5370"
+    "id": "way/-5412"
   },
   "geometry": {
     "type": "LineString",
@@ -6744,11 +6743,11 @@
 },
 {
   "type": "Feature",
-  "id": "way/-5371",
+  "id": "way/-5413",
   "properties": {
     "indoor": "corridor",
     "level": "0",
-    "id": "way/-5371"
+    "id": "way/-5413"
   },
   "geometry": {
     "type": "LineString",
@@ -6762,23 +6761,23 @@
         8.06482708352
       ],
       [
-        123.75693305999,
-        8.06473965192
+        123.75686466366,
+        8.06467724337
       ],
       [
-        123.75680324666,
-        8.06462670989
+        123.75675899021,
+        8.06458687464
       ]
     ]
   }
 },
 {
   "type": "Feature",
-  "id": "way/-5372",
+  "id": "way/-5414",
   "properties": {
     "indoor": "corridor",
     "level": "0",
-    "id": "way/-5372"
+    "id": "way/-5414"
   },
   "geometry": {
     "type": "LineString",
@@ -6808,11 +6807,11 @@
 },
 {
   "type": "Feature",
-  "id": "way/-5373",
+  "id": "way/-5415",
   "properties": {
     "indoor": "corridor",
     "level": "0",
-    "id": "way/-5373"
+    "id": "way/-5415"
   },
   "geometry": {
     "type": "LineString",
@@ -6834,11 +6833,11 @@
 },
 {
   "type": "Feature",
-  "id": "way/-5374",
+  "id": "way/-5416",
   "properties": {
     "indoor": "corridor",
     "level": "0",
-    "id": "way/-5374"
+    "id": "way/-5416"
   },
   "geometry": {
     "type": "LineString",
@@ -6856,11 +6855,11 @@
 },
 {
   "type": "Feature",
-  "id": "way/-5375",
+  "id": "way/-5417",
   "properties": {
     "indoor": "corridor",
     "level": "0",
-    "id": "way/-5375"
+    "id": "way/-5417"
   },
   "geometry": {
     "type": "LineString",
@@ -6878,11 +6877,11 @@
 },
 {
   "type": "Feature",
-  "id": "way/-5376",
+  "id": "way/-5418",
   "properties": {
     "indoor": "corridor",
     "level": "0",
-    "id": "way/-5376"
+    "id": "way/-5418"
   },
   "geometry": {
     "type": "LineString",
@@ -9766,8 +9765,16 @@
         8.0621025
       ],
       [
+        123.75673202485,
+        8.06237630072
+      ],
+      [
         123.7564727,
         8.0626883
+      ],
+      [
+        123.75591739254,
+        8.0633521028
       ],
       [
         123.7549628,
@@ -14739,16 +14746,16 @@
         8.0642361
       ],
       [
-        123.75646086676,
-        8.06432945512
+        123.75639649374,
+        8.06427368572
       ],
       [
-        123.75661790009,
-        8.06446300977
+        123.75643953319,
+        8.06431163574
       ],
       [
-        123.75676441218,
-        8.06459029247
+        123.75647875692,
+        8.06434464167
       ]
     ]
   }
@@ -14838,10 +14845,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39639",
+  "id": "node/-40109",
   "properties": {
     "name": "VP for Academic Affairs",
-    "id": "node/-39639"
+    "id": "node/-40109"
   },
   "geometry": {
     "type": "Point",
@@ -14853,10 +14860,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39640",
+  "id": "node/-40110",
   "properties": {
     "name": "OJT Placement and Alumni Office",
-    "id": "node/-39640"
+    "id": "node/-40110"
   },
   "geometry": {
     "type": "Point",
@@ -14868,10 +14875,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39642",
+  "id": "node/-40112",
   "properties": {
     "name": "Faculty Lounge",
-    "id": "node/-39642"
+    "id": "node/-40112"
   },
   "geometry": {
     "type": "Point",
@@ -14883,10 +14890,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39643",
+  "id": "node/-40113",
   "properties": {
     "name": "Elevator",
-    "id": "node/-39643"
+    "id": "node/-40113"
   },
   "geometry": {
     "type": "Point",
@@ -14898,12 +14905,12 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39644",
+  "id": "node/-40114",
   "properties": {
     "highway": "steps",
     "level": "0;1;2",
     "name": "Stairs (Main Lobby)",
-    "id": "node/-39644"
+    "id": "node/-40114"
   },
   "geometry": {
     "type": "Point",
@@ -14915,10 +14922,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39645",
+  "id": "node/-40115",
   "properties": {
     "name": "Registrar's Office and Record Section",
-    "id": "node/-39645"
+    "id": "node/-40115"
   },
   "geometry": {
     "type": "Point",
@@ -14930,10 +14937,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39646",
+  "id": "node/-40116",
   "properties": {
     "name": "Accounting Office and Cashier",
-    "id": "node/-39646"
+    "id": "node/-40116"
   },
   "geometry": {
     "type": "Point",
@@ -14945,10 +14952,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39647",
+  "id": "node/-40117",
   "properties": {
     "name": "Criminology Laboratory",
-    "id": "node/-39647"
+    "id": "node/-40117"
   },
   "geometry": {
     "type": "Point",
@@ -14960,10 +14967,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39648",
+  "id": "node/-40118",
   "properties": {
     "name": "Institute of Criminal Justice and Education (ICJE)",
-    "id": "node/-39648"
+    "id": "node/-40118"
   },
   "geometry": {
     "type": "Point",
@@ -14975,12 +14982,12 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39649",
+  "id": "node/-40119",
   "properties": {
     "highway": "steps",
     "level": "0;1;2",
     "name": "Stairs to 2nd Floor (Right Wing)",
-    "id": "node/-39649"
+    "id": "node/-40119"
   },
   "geometry": {
     "type": "Point",
@@ -14992,10 +14999,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39650",
+  "id": "node/-40120",
   "properties": {
     "name": "Office of Student Life and Development (OSLD)",
-    "id": "node/-39650"
+    "id": "node/-40120"
   },
   "geometry": {
     "type": "Point",
@@ -15007,10 +15014,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39651",
+  "id": "node/-40121",
   "properties": {
     "name": "Male Comfort Room/Toilet (Right Wing)",
-    "id": "node/-39651"
+    "id": "node/-40121"
   },
   "geometry": {
     "type": "Point",
@@ -15022,10 +15029,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39652",
+  "id": "node/-40122",
   "properties": {
     "name": "Female Comfort Room/Toilet (Right Wing)",
-    "id": "node/-39652"
+    "id": "node/-40122"
   },
   "geometry": {
     "type": "Point",
@@ -15037,10 +15044,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39653",
+  "id": "node/-40123",
   "properties": {
     "name": "Comfort Room/Toilet (ICS Staff/Faculty Only)",
-    "id": "node/-39653"
+    "id": "node/-40123"
   },
   "geometry": {
     "type": "Point",
@@ -15052,10 +15059,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39654",
+  "id": "node/-40124",
   "properties": {
     "name": "Comfort Room/Toilet (Staff/Faculty Only) (Right Wing)",
-    "id": "node/-39654"
+    "id": "node/-40124"
   },
   "geometry": {
     "type": "Point",
@@ -15067,10 +15074,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39655",
+  "id": "node/-40125",
   "properties": {
     "name": "Annex Building",
-    "id": "node/-39655"
+    "id": "node/-40125"
   },
   "geometry": {
     "type": "Point",
@@ -15082,25 +15089,25 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39656",
+  "id": "node/-40126",
   "properties": {
     "name": "Oval/Track",
-    "id": "node/-39656"
+    "id": "node/-40126"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      123.75683694826,
-      8.06438169098
+      123.75694960104,
+      8.06421571065
     ]
   }
 },
 {
   "type": "Feature",
-  "id": "node/-39657",
+  "id": "node/-40127",
   "properties": {
     "name": "School Canteen",
-    "id": "node/-39657"
+    "id": "node/-40127"
   },
   "geometry": {
     "type": "Point",
@@ -15112,10 +15119,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39658",
+  "id": "node/-40128",
   "properties": {
     "name": "Institute of Computer Studies (ICS)",
-    "id": "node/-39658"
+    "id": "node/-40128"
   },
   "geometry": {
     "type": "Point",
@@ -15127,10 +15134,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39659",
+  "id": "node/-40129",
   "properties": {
     "name": "TCGC Dev. Training Center",
-    "id": "node/-39659"
+    "id": "node/-40129"
   },
   "geometry": {
     "type": "Point",
@@ -15142,10 +15149,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39660",
+  "id": "node/-40130",
   "properties": {
     "name": "Institute of Midwifery (IOM)",
-    "id": "node/-39660"
+    "id": "node/-40130"
   },
   "geometry": {
     "type": "Point",
@@ -15157,10 +15164,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39661",
+  "id": "node/-40131",
   "properties": {
     "name": "Institute of Business and Financial Services (IBFS)",
-    "id": "node/-39661"
+    "id": "node/-40131"
   },
   "geometry": {
     "type": "Point",
@@ -15172,10 +15179,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39662",
+  "id": "node/-40132",
   "properties": {
     "name": "Intitute of Teacher Education (ITE)",
-    "id": "node/-39662"
+    "id": "node/-40132"
   },
   "geometry": {
     "type": "Point",
@@ -15187,10 +15194,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39663",
+  "id": "node/-40133",
   "properties": {
     "name": "Comfort Room/Toilet (Male/Female) (Right Wing)",
-    "id": "node/-39663"
+    "id": "node/-40133"
   },
   "geometry": {
     "type": "Point",
@@ -15202,10 +15209,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39664",
+  "id": "node/-40134",
   "properties": {
     "name": "Institute of Arts and Sciences (IAS)",
-    "id": "node/-39664"
+    "id": "node/-40134"
   },
   "geometry": {
     "type": "Point",
@@ -15217,10 +15224,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39665",
+  "id": "node/-40135",
   "properties": {
     "name": "College Information System Office (CISO)",
-    "id": "node/-39665"
+    "id": "node/-40135"
   },
   "geometry": {
     "type": "Point",
@@ -15232,10 +15239,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39666",
+  "id": "node/-40136",
   "properties": {
     "name": "Medical and Dental Clinic",
-    "id": "node/-39666"
+    "id": "node/-40136"
   },
   "geometry": {
     "type": "Point",
@@ -15247,10 +15254,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39667",
+  "id": "node/-40137",
   "properties": {
     "name": "Audio Visual Room",
-    "id": "node/-39667"
+    "id": "node/-40137"
   },
   "geometry": {
     "type": "Point",
@@ -15262,10 +15269,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39668",
+  "id": "node/-40138",
   "properties": {
     "name": "Comfort Room/Toilet (Male/Female) (Left Wing)",
-    "id": "node/-39668"
+    "id": "node/-40138"
   },
   "geometry": {
     "type": "Point",
@@ -15277,10 +15284,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39669",
+  "id": "node/-40139",
   "properties": {
     "name": "MB 105",
-    "id": "node/-39669"
+    "id": "node/-40139"
   },
   "geometry": {
     "type": "Point",
@@ -15292,10 +15299,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39670",
+  "id": "node/-40140",
   "properties": {
     "name": "MB 103/ Demo Room",
-    "id": "node/-39670"
+    "id": "node/-40140"
   },
   "geometry": {
     "type": "Point",
@@ -15307,10 +15314,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39671",
+  "id": "node/-40141",
   "properties": {
     "name": "Dressing Room",
-    "id": "node/-39671"
+    "id": "node/-40141"
   },
   "geometry": {
     "type": "Point",
@@ -15322,10 +15329,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39672",
+  "id": "node/-40142",
   "properties": {
     "name": "MultiPurpose Room",
-    "id": "node/-39672"
+    "id": "node/-40142"
   },
   "geometry": {
     "type": "Point",
@@ -15337,10 +15344,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39673",
+  "id": "node/-40143",
   "properties": {
     "name": "Music Room",
-    "id": "node/-39673"
+    "id": "node/-40143"
   },
   "geometry": {
     "type": "Point",
@@ -15352,10 +15359,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39674",
+  "id": "node/-40144",
   "properties": {
     "name": "Midwifery Laboratory",
-    "id": "node/-39674"
+    "id": "node/-40144"
   },
   "geometry": {
     "type": "Point",
@@ -15367,10 +15374,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39675",
+  "id": "node/-40145",
   "properties": {
     "name": "Dance Studio",
-    "id": "node/-39675"
+    "id": "node/-40145"
   },
   "geometry": {
     "type": "Point",
@@ -15382,12 +15389,12 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39676",
+  "id": "node/-40146",
   "properties": {
     "highway": "steps",
     "level": "0;1;2",
     "name": "Stairs to 2nd Floor (Left Wing)",
-    "id": "node/-39676"
+    "id": "node/-40146"
   },
   "geometry": {
     "type": "Point",
@@ -15399,10 +15406,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39677",
+  "id": "node/-40147",
   "properties": {
     "name": "Maintenance/ Student Assistant Personnel Barracks",
-    "id": "node/-39677"
+    "id": "node/-40147"
   },
   "geometry": {
     "type": "Point",
@@ -15414,10 +15421,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39678",
+  "id": "node/-40148",
   "properties": {
     "name": "Physical Facilities Operation and Maintenance (PFOM)",
-    "id": "node/-39678"
+    "id": "node/-40148"
   },
   "geometry": {
     "type": "Point",
@@ -15429,10 +15436,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39679",
+  "id": "node/-40149",
   "properties": {
     "name": "Female Comfort Room/Toilet (Left Wing)",
-    "id": "node/-39679"
+    "id": "node/-40149"
   },
   "geometry": {
     "type": "Point",
@@ -15444,10 +15451,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39680",
+  "id": "node/-40150",
   "properties": {
     "name": "Male Comfort Room/Toilet (Left Wing)",
-    "id": "node/-39680"
+    "id": "node/-40150"
   },
   "geometry": {
     "type": "Point",
@@ -15459,10 +15466,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39681",
+  "id": "node/-40151",
   "properties": {
     "name": "Comfort Room/Toilet (Staff/Faculty Only) (Left Wing)",
-    "id": "node/-39681"
+    "id": "node/-40151"
   },
   "geometry": {
     "type": "Point",
@@ -15474,10 +15481,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39682",
+  "id": "node/-40152",
   "properties": {
     "name": "Comfort Room/Toilet (Staff/Faculty Only) (Left Wing)",
-    "id": "node/-39682"
+    "id": "node/-40152"
   },
   "geometry": {
     "type": "Point",
@@ -15489,10 +15496,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39683",
+  "id": "node/-40153",
   "properties": {
     "name": "Covered Court / Basketball Court",
-    "id": "node/-39683"
+    "id": "node/-40153"
   },
   "geometry": {
     "type": "Point",
@@ -15504,10 +15511,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39684",
+  "id": "node/-40154",
   "properties": {
     "name": "Covered Court / Volleyball Court",
-    "id": "node/-39684"
+    "id": "node/-40154"
   },
   "geometry": {
     "type": "Point",
@@ -15519,10 +15526,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39685",
+  "id": "node/-40155",
   "properties": {
     "name": "Swimming Pool",
-    "id": "node/-39685"
+    "id": "node/-40155"
   },
   "geometry": {
     "type": "Point",
@@ -15534,10 +15541,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39686",
+  "id": "node/-40156",
   "properties": {
     "name": "Race Track Bench",
-    "id": "node/-39686"
+    "id": "node/-40156"
   },
   "geometry": {
     "type": "Point",
@@ -15549,10 +15556,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39687",
+  "id": "node/-40157",
   "properties": {
     "name": "Senior High School",
-    "id": "node/-39687"
+    "id": "node/-40157"
   },
   "geometry": {
     "type": "Point",
@@ -15564,10 +15571,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39705",
+  "id": "node/-40175",
   "properties": {
     "name": "Entrance/Exit for Large Vehicles",
-    "id": "node/-39705"
+    "id": "node/-40175"
   },
   "geometry": {
     "type": "Point",
@@ -15579,10 +15586,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39706",
+  "id": "node/-40176",
   "properties": {
     "name": "Exit for Small Vehicle",
-    "id": "node/-39706"
+    "id": "node/-40176"
   },
   "geometry": {
     "type": "Point",
@@ -15594,10 +15601,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39707",
+  "id": "node/-40177",
   "properties": {
     "name": "Student Entrance",
-    "id": "node/-39707"
+    "id": "node/-40177"
   },
   "geometry": {
     "type": "Point",
@@ -15609,11 +15616,11 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39740",
+  "id": "node/-40210",
   "properties": {
     "barrier": "gate",
     "name": "Entrance /Exit for School Officials and Visitors",
-    "id": "node/-39740"
+    "id": "node/-40210"
   },
   "geometry": {
     "type": "Point",
@@ -15625,16 +15632,31 @@
 },
 {
   "type": "Feature",
-  "id": "node/-39743",
+  "id": "node/-40213",
   "properties": {
     "name": "Student Exit",
-    "id": "node/-39743"
+    "id": "node/-40213"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
       123.75614130693,
       8.0654920896
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/-40245",
+  "properties": {
+    "name": "Evacuation Area/Safety Area",
+    "id": "node/-40245"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      123.75660762057,
+      8.06467647077
     ]
   }
 },
